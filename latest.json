@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-20T13:32:17.998114",
+    "last_updated": "2026-04-20T13:55:23.266729",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.104"
@@ -427,12 +427,12 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 5.96,
+          "planned_tss_delta": 5.34,
           "hard_sessions_planned": 2,
           "current_week_hard_days_completed": 0,
           "current_week_hard_days_total": 2,
           "race_proximity": 41,
-          "next_week_load": 6.29,
+          "next_week_load": 5.87,
           "plan_coverage_current_week": 5.0,
           "plan_coverage_next_week": 5.0
         },
@@ -469,7 +469,7 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-20T13:32:17.997255",
+    "calculation_timestamp": "2026-04-20T13:55:23.265895",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
@@ -1071,12 +1071,12 @@
       "name": "Easy run",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 50,
+      "planned_tss": 43,
       "duration_hours": 0.74,
       "duration_formatted": "44m12s",
       "workout_summary": "36m12s | 6\u00d720s / 1m rec",
       "has_terrain": false,
-      "description": "-6km Z2 Pace\n\n6x\n-20s Z6 pace\n-1m Z1 Pace"
+      "description": "-6km Z2 HR\n\n6x\n-20s Z6 HR\n-1m Z1 HR"
     },
     {
       "id": 95747342,
@@ -1084,12 +1084,12 @@
       "name": "Easy run",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 34,
+      "planned_tss": 30,
       "duration_hours": 0.5,
       "duration_formatted": "30m10s",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "-5km Z2 Pace"
+      "description": "-5km Z2 HR"
     },
     {
       "id": 101258206,
@@ -1110,12 +1110,12 @@
       "name": "Easy run",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 62,
+      "planned_tss": 54,
       "duration_hours": 0.91,
       "duration_formatted": "54m18s",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "-9km Z2 Pace"
+      "description": "-9km Z2 HR"
     },
     {
       "id": 105513741,
@@ -1123,12 +1123,12 @@
       "name": "Long run",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 75,
+      "planned_tss": 66,
       "duration_hours": 1.11,
       "duration_formatted": "1h6m22s",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "-11km Z2 Pace"
+      "description": "-11km Z2 HR"
     },
     {
       "id": 101258279,
@@ -1148,12 +1148,12 @@
       "name": "Easy run",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 34,
+      "planned_tss": 30,
       "duration_hours": 0.5,
       "duration_formatted": "30m10s",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "-5km Z2 Pace"
+      "description_preview": "-5km Z2 HR"
     },
     {
       "id": 101258532,
@@ -1173,12 +1173,12 @@
       "name": "Easy run",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 34,
+      "planned_tss": 30,
       "duration_hours": 0.5,
       "duration_formatted": "30m10s",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "-5km Z2 Pace"
+      "description_preview": "-5km Z2 HR"
     },
     {
       "id": 95747418,
@@ -1186,12 +1186,12 @@
       "name": "Easy run",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 89,
+      "planned_tss": 78,
       "duration_hours": 1.31,
       "duration_formatted": "1h18m26s",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "-13km Z2 Pace"
+      "description_preview": "-13km Z2 HR"
     },
     {
       "id": 101258685,
@@ -1211,12 +1211,12 @@
       "name": "Easy run",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 41,
+      "planned_tss": 36,
       "duration_hours": 0.6,
       "duration_formatted": "36m12s",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "-6km Z2 Pace"
+      "description_preview": "-6km Z2 HR"
     },
     {
       "id": 101258759,
@@ -1236,12 +1236,12 @@
       "name": "Easy run",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 41,
+      "planned_tss": 36,
       "duration_hours": 0.6,
       "duration_formatted": "36m12s",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "-6km Z2 Pace"
+      "description_preview": "-6km Z2 HR"
     },
     {
       "id": 95747536,
@@ -1249,12 +1249,12 @@
       "name": "L-Sessie",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 97,
+      "planned_tss": 85,
       "duration_hours": 1.42,
       "duration_formatted": "1h25m4s",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "-14.1km Z2 Pace"
+      "description_preview": "-14.1km Z2 HR"
     },
     {
       "id": 101259025,
@@ -1274,12 +1274,12 @@
       "name": "Easy run",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 41,
+      "planned_tss": 36,
       "duration_hours": 0.6,
       "duration_formatted": "36m12s",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "-6km Z2 Pace"
+      "description_preview": "-6km Z2 HR"
     },
     {
       "id": 101259310,
@@ -1299,12 +1299,12 @@
       "name": "Easy run",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 41,
+      "planned_tss": 36,
       "duration_hours": 0.6,
       "duration_formatted": "36m12s",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "-6km Z2 Pace"
+      "description_preview": "-6km Z2 HR"
     },
     {
       "id": 101259460,
@@ -1312,12 +1312,12 @@
       "name": "L-Sessie",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 103,
+      "planned_tss": 90,
       "duration_hours": 1.51,
       "duration_formatted": "1h30m30s",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "-15km Z2 Pace"
+      "description_preview": "-15km Z2 HR"
     },
     {
       "id": 101260507,
@@ -1337,12 +1337,12 @@
       "name": "Easy run",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 34,
+      "planned_tss": 30,
       "duration_hours": 0.5,
       "duration_formatted": "30m10s",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "-5km Z2 Pace"
+      "description_preview": "-5km Z2 HR"
     },
     {
       "id": 101260668,
@@ -1362,12 +1362,12 @@
       "name": "L-Sessie",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 69,
+      "planned_tss": 60,
       "duration_hours": 1.01,
       "duration_formatted": "1h20s",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "-10km Z2 Pace"
+      "description_preview": "-10km Z2 HR"
     },
     {
       "id": 101260775,
@@ -1375,12 +1375,12 @@
       "name": "Easy run",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 34,
+      "planned_tss": 30,
       "duration_hours": 0.5,
       "duration_formatted": "30m10s",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "-5km Z2 Pace"
+      "description_preview": "-5km Z2 HR"
     },
     {
       "id": 101259919,
@@ -1388,12 +1388,12 @@
       "name": "Easy run",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 27,
+      "planned_tss": 24,
       "duration_hours": 0.4,
       "duration_formatted": "24m8s",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "-4km Z2 Pace"
+      "description_preview": "-4km Z2 HR"
     },
     {
       "id": 101260041,
@@ -1413,7 +1413,7 @@
       "name": "Shakeout Run",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 26,
+      "planned_tss": 23,
       "duration_hours": 0.39,
       "duration_formatted": "23m26s",
       "workout_summary": "18m6s | 4\u00d720s / 1m rec",
