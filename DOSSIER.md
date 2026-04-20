@@ -37,3 +37,10 @@
 - **Hard session days:** Tuesday, Thursday
 - **Long run day:** Saturday
 - **Rest day:** Monday
+
+## Additional Training
+- **Mobility:** Yes — include mobility sessions in weekly plan
+- **Bodyweight strength:** Yes — include bodyweight strength sessions in weekly plan
+- **Preferred days for strength/mobility:** e.g. Wednesday and/or post-easy runs
+- **Session length preference:** e.g. 20–30 minutes
+- **Equipment available:** Bodyweight only, no gym
