@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-22T14:42:49.807544",
+  "generated_at": "2026-04-22T15:56:36.566124",
   "version": "3.104",
   "script_hash": "74e1c7fc0294",
   "scan_hours": 72,
@@ -139,6 +139,44 @@
           "avg_hr": 168,
           "max_hr": 169,
           "avg_cadence": 51.5,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i142045673",
+      "date": "2026-04-22",
+      "type": "Run",
+      "name": "East Run",
+      "interval_summary": [
+        "1x 33m40s 6:44",
+        "1x 40s 7:06"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "2020s@157bpm75rpm",
+          "duration_secs": 2020,
+          "avg_hr": 157,
+          "max_hr": 165,
+          "avg_cadence": 75.30571,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "40s@160bpm75rpm",
+          "duration_secs": 40,
+          "avg_hr": 160,
+          "max_hr": 161,
+          "avg_cadence": 75.2,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_hr": 161,
+          "max_hr": 161,
+          "avg_cadence": 75.0,
           "zone": 1
         }
       ]
