@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-22T17:54:40.815141",
+    "last_updated": "2026-04-22T19:02:42.269161",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.104"
@@ -509,7 +509,7 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 55.0,
-    "calculation_timestamp": "2026-04-22T17:54:40.814270",
+    "calculation_timestamp": "2026-04-22T19:02:42.268239",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
@@ -527,7 +527,7 @@
       "id": "i142045673",
       "date": "2026-04-22T17:06:12",
       "type": "Run",
-      "name": "East Run",
+      "name": "Easy Run",
       "duration_hours": 0.57,
       "distance_km": 5.09,
       "tss": 31,
