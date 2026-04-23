@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-23T05:41:26.365116",
+    "last_updated": "2026-04-23T07:16:13.763259",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.104"
@@ -243,7 +243,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 214,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -510,7 +510,7 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-23T05:41:26.364224",
+    "calculation_timestamp": "2026-04-23T07:16:13.762354",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
@@ -1196,7 +1196,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 214,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1222,19 +1222,6 @@
       "description": "Warmup\n-2km Z1 pace\n\n3x \n-15s Z4 Pace\n-1m Z1 pace\n\n-20m Z4 pace\n\nCooldown\n-5m Z1 Pace"
     },
     {
-      "id": 95747345,
-      "date": "2026-04-24",
-      "name": "Easy run",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 54,
-      "duration_hours": 0.91,
-      "duration_formatted": "54m18s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": "-9km Z2 HR"
-    },
-    {
       "id": 105513741,
       "date": "2026-04-25",
       "name": "Long run",
@@ -1246,6 +1233,19 @@
       "workout_summary": null,
       "has_terrain": false,
       "description": "-11km Z2 HR"
+    },
+    {
+      "id": 95747345,
+      "date": "2026-04-26",
+      "name": "Easy run",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 54,
+      "duration_hours": 0.91,
+      "duration_formatted": "54m18s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "-9km Z2 HR"
     },
     {
       "id": 101258279,
