@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-28T15:36:15.565388",
+    "last_updated": "2026-04-28T17:19:19.231921",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.104"
@@ -239,7 +239,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 578,
+      "steps": 5293,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -466,7 +466,7 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 3.18,
+          "planned_tss_delta": 3.01,
           "hard_sessions_planned": 2,
           "current_week_hard_days_completed": 0,
           "current_week_hard_days_total": 2,
@@ -508,7 +508,7 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-28T15:36:15.564472",
+    "calculation_timestamp": "2026-04-28T17:19:19.230987",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1193,7 +1193,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 578,
+      "steps": 5293,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1211,12 +1211,12 @@
       "name": "I-Sessie",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 63,
-      "duration_hours": 0.83,
-      "duration_formatted": "49m57s",
-      "workout_summary": "14m17s | 5\u00d74m38s / 1m30s rec | 5m",
+      "planned_tss": 49,
+      "duration_hours": 0.81,
+      "duration_formatted": "48m40s",
+      "workout_summary": "10m | 3\u00d720s / 40s rec | 5\u00d74m38s / 1m30s rec | 5m",
       "has_terrain": false,
-      "description": "Warmup\n-2km Z1 Pace\n\n5x\n-1km 4:40 Z6 Pace\n-90s Z1 Pace\n\nCooldown\n-5m Z1 Pace"
+      "description": "Warmup\n-10m Z1 pace\n\n3x\n-20s Z6 pace\n-40s Z1 pace\n\n5x\n-1km 4:40 Z6 Pace\n-90s\n\nCooldown\n-5m Z1 Pace"
     },
     {
       "id": 95747408,
