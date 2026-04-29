@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-29T04:46:55.212341",
+    "last_updated": "2026-04-29T07:17:11.818398",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.104"
@@ -102,20 +102,20 @@
     "priority": 1,
     "signals": {
       "hrv": {
-        "status": "unavailable",
-        "value": null,
-        "baseline_7d": 36.7,
-        "delta_pct": null
+        "status": "amber",
+        "value": 32.0,
+        "baseline_7d": 36.0,
+        "delta_pct": -11.1
       },
       "rhr": {
-        "status": "unavailable",
-        "value": null,
-        "baseline_7d": 60.7,
-        "delta_bpm": null
+        "status": "green",
+        "value": 62,
+        "baseline_7d": 60.9,
+        "delta_bpm": 1.1
       },
       "sleep": {
-        "status": "unavailable",
-        "hours": null,
+        "status": "amber",
+        "hours": 6.88,
         "quality": null
       },
       "acwr": {
@@ -123,16 +123,16 @@
         "value": 2.25
       },
       "ri": {
-        "status": "unavailable",
-        "value": null,
-        "value_yesterday": 0.91
+        "status": "green",
+        "value": 0.87,
+        "value_yesterday": 0.93
       }
     },
     "signal_summary": {
-      "green": 0,
-      "amber": 0,
+      "green": 2,
+      "amber": 2,
       "red": 1,
-      "unavailable": 4
+      "unavailable": 0
     },
     "phase_context": {
       "phase": "Recovery",
@@ -217,11 +217,11 @@
     },
     "current_metrics": {
       "weight_kg": 80.4,
-      "resting_hr": 60,
-      "hrv": null,
+      "resting_hr": 62,
+      "hrv": 32.0,
       "sleep_quality": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
+      "sleep_hours": 6.88,
+      "sleep_formatted": "6h53m",
       "sleep_score": null,
       "fatigue": null,
       "soreness": null,
@@ -251,14 +251,14 @@
     }
   },
   "derived_metrics": {
-    "recovery_index": null,
-    "recovery_index_yesterday": 0.91,
-    "hrv_baseline_7d": 36.7,
-    "rhr_baseline_7d": 60.7,
-    "hrv_baseline_28d": 35.9,
-    "rhr_baseline_28d": 58.2,
-    "latest_hrv": null,
-    "latest_rhr": null,
+    "recovery_index": 0.87,
+    "recovery_index_yesterday": 0.93,
+    "hrv_baseline_7d": 36.0,
+    "rhr_baseline_7d": 60.9,
+    "hrv_baseline_28d": 35.8,
+    "rhr_baseline_28d": 58.3,
+    "latest_hrv": 32.0,
+    "latest_rhr": 62,
     "acwr": 2.25,
     "acwr_interpretation": "danger",
     "monotony": 0.78,
@@ -270,7 +270,7 @@
     "multi_sport_detected": false,
     "strain": 137.0,
     "stress_tolerance": 1.8,
-    "load_recovery_ratio": null,
+    "load_recovery_ratio": 2.0,
     "tss_7d_total": 176.0,
     "tss_28d_total": 313.0,
     "zone_distribution_7d": {
@@ -440,14 +440,13 @@
     },
     "consistency_index": 0.0,
     "consistency_details": {
-      "planned_days": 5,
+      "planned_days": 4,
       "completed_days": 0,
       "matched_days": 0,
       "planned_dates": [
         "2026-04-23",
         "2026-04-25",
         "2026-04-26",
-        "2026-04-28",
         "2026-04-29"
       ],
       "completed_dates": []
@@ -466,13 +465,13 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 2.91,
-          "hard_sessions_planned": 1,
+          "planned_tss_delta": 3.61,
+          "hard_sessions_planned": 2,
           "current_week_hard_days_completed": 0,
-          "current_week_hard_days_total": 1,
+          "current_week_hard_days_total": 2,
           "race_proximity": 32,
           "next_week_load": 3.08,
-          "plan_coverage_current_week": 1.33,
+          "plan_coverage_current_week": 1.67,
           "plan_coverage_next_week": 1.67
         },
         "data_quality": "good",
@@ -508,13 +507,13 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-29T04:46:55.211492",
+    "calculation_timestamp": "2026-04-29T07:17:11.817750",
     "data_quality": {
-      "hrv_data_points": 6,
-      "rhr_data_points": 6,
+      "hrv_data_points": 7,
+      "rhr_data_points": 7,
       "activities_7d": 3,
       "activities_28d": 8,
-      "planned_workouts_7d": 5,
+      "planned_workouts_7d": 4,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -1154,7 +1153,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 6784,
+      "steps": 6822,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1167,15 +1166,15 @@
     {
       "date": "2026-04-29",
       "weight_kg": null,
-      "resting_hr": null,
-      "hrv_rmssd": null,
+      "resting_hr": 62,
+      "hrv_rmssd": 32.0,
       "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
+      "sleep_hours": 6.88,
+      "sleep_formatted": "6h53m",
       "sleep_quality": null,
       "sleep_score": null,
       "mental_energy": null,
-      "avg_sleeping_hr": null,
+      "avg_sleeping_hr": 64.0,
       "vo2max": null,
       "fatigue": null,
       "soreness": null,
@@ -1219,17 +1218,17 @@
       "description": "-5km Z2 HR"
     },
     {
-      "id": 101258532,
+      "id": 101258279,
       "date": "2026-04-30",
-      "name": "T-Sessie",
+      "name": "I-Sessie",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 65,
-      "duration_hours": 0.88,
-      "duration_formatted": "53m2s",
-      "workout_summary": "14m17s | 3\u00d715s / 1m rec | 30m | 5m",
+      "planned_tss": 49,
+      "duration_hours": 0.81,
+      "duration_formatted": "48m40s",
+      "workout_summary": "10m | 3\u00d720s / 40s rec | 5\u00d74m38s / 1m30s rec | 5m",
       "has_terrain": false,
-      "description": "Warmup\n-2km Z1 pace\n\n3x \n-15s Z4 Pace\n-1m Z1 pace\n\n-30m Z4 pace\n\nCooldown\n-5m Z1 Pace"
+      "description": "Warmup\n-10m Z1 pace\n\n3x\n-20s Z6 pace\n-40s Z1 pace\n\n5x\n-1km 4:40 Z6 Pace\n-90s\n\nCooldown\n-5m Z1 Pace"
     },
     {
       "id": 95747420,
@@ -1256,6 +1255,19 @@
       "workout_summary": null,
       "has_terrain": false,
       "description": "-13km Z2 HR"
+    },
+    {
+      "id": 101258532,
+      "date": "2026-05-03",
+      "name": "T-Sessie",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 65,
+      "duration_hours": 0.88,
+      "duration_formatted": "53m2s",
+      "workout_summary": "14m17s | 3\u00d715s / 1m rec | 30m | 5m",
+      "has_terrain": false,
+      "description": "Warmup\n-2km Z1 pace\n\n3x \n-15s Z4 Pace\n-1m Z1 pace\n\n-30m Z4 pace\n\nCooldown\n-5m Z1 Pace"
     },
     {
       "id": 101258685,
@@ -1589,9 +1601,9 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 29,
-    "success": 10,
-    "patternA": 10,
+    "attempted": 30,
+    "success": 11,
+    "patternA": 11,
     "patternB": 0,
     "bail_no_workout_doc": 1,
     "bail_no_match": 19
@@ -1601,8 +1613,8 @@
     "total_training_formatted": "2h49m",
     "total_tss": 176,
     "activities_count": 3,
-    "avg_hrv": 36.7,
-    "avg_resting_hr": 60.7
+    "avg_hrv": 36.0,
+    "avg_resting_hr": 60.9
   },
   "race_calendar": {
     "next_race": {
