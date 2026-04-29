@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-29T15:26:24.742294",
+    "last_updated": "2026-04-29T16:59:03.951005",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.104"
@@ -507,7 +507,7 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-29T15:26:24.741474",
+    "calculation_timestamp": "2026-04-29T16:59:03.950355",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -525,7 +525,7 @@
       "id": "i144075641",
       "date": "2026-04-29T16:49:15",
       "type": "Run",
-      "name": "Afternoon Run",
+      "name": "Easy Run",
       "duration_hours": 0.55,
       "distance_km": 5.01,
       "tss": 31,
@@ -570,7 +570,7 @@
       },
       "has_intervals": true,
       "has_dfa": false,
-      "description": "63 Training Load\n-- from COROS"
+      "description": "-5km Z2"
     },
     {
       "id": "i143030172",
