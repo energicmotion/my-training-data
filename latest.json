@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-29T01:22:59.195907",
+    "last_updated": "2026-04-29T04:46:55.212341",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.104"
@@ -168,10 +168,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 15.54,
-      "atl": 22.54,
-      "tsb": -7.0,
-      "ramp_rate": 3.67,
+      "ctl": 14.41,
+      "atl": 16.89,
+      "tsb": -2.48,
+      "ramp_rate": 2.54,
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
@@ -508,7 +508,7 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-29T01:22:59.194999",
+    "calculation_timestamp": "2026-04-29T04:46:55.211492",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
