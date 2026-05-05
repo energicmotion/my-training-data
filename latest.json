@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-05T19:10:31.951886",
+    "last_updated": "2026-05-05T20:16:20.294604",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.104"
@@ -172,7 +172,7 @@
       "atl": 19.87,
       "tsb": -3.73,
       "ramp_rate": 1.38,
-      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
+      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
       "eftp": null,
@@ -434,7 +434,7 @@
     },
     "consistency_index": 0.0,
     "consistency_details": {
-      "planned_days": 6,
+      "planned_days": 5,
       "completed_days": 0,
       "matched_days": 0,
       "planned_dates": [
@@ -442,8 +442,7 @@
         "2026-04-30",
         "2026-05-01",
         "2026-05-02",
-        "2026-05-03",
-        "2026-05-05"
+        "2026-05-03"
       ],
       "completed_dates": []
     },
@@ -499,13 +498,13 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-05T19:10:31.950985",
+    "calculation_timestamp": "2026-05-05T20:16:20.293735",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 3,
       "activities_28d": 9,
-      "planned_workouts_7d": 6,
+      "planned_workouts_7d": 5,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -1248,19 +1247,6 @@
   ],
   "planned_workouts": [
     {
-      "id": 101258685,
-      "date": "2026-05-05",
-      "name": "I-Sessie",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 71,
-      "duration_hours": 0.88,
-      "duration_formatted": "52m59s",
-      "workout_summary": "14m14s | 3\u00d79m15s / 2m rec | 5m",
-      "has_terrain": false,
-      "description": "Warmup\n-2km Z1 Pace\n\n3x\n-2km 4:40 Z6 Pace\n-2m Z1 Pace\n\nCooldown\n-5m Z1 Pace"
-    },
-    {
       "id": 95748036,
       "date": "2026-05-06",
       "name": "Easy run",
@@ -1274,17 +1260,17 @@
       "description": "-6km Z2 HR"
     },
     {
-      "id": 101258759,
+      "id": 101258685,
       "date": "2026-05-07",
-      "name": "T-Sessie",
+      "name": "I-Sessie",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 73,
-      "duration_hours": 1.02,
-      "duration_formatted": "1h59s",
-      "workout_summary": "14m14s | 3\u00d715s / 1m rec | 2\u00d716m / 3m rec | 5m",
+      "planned_tss": 71,
+      "duration_hours": 0.88,
+      "duration_formatted": "52m59s",
+      "workout_summary": "14m14s | 3\u00d79m15s / 2m rec | 5m",
       "has_terrain": false,
-      "description": "Warmup\n-2km Z1 pace\n\n3x \n-15s Z4 Pace\n-1m Z1 pace\n\n2x\n-16m Z4 Pace\n-3m Z1 Pace\n\nCooldown\n-5m Z1 Pace"
+      "description": "Warmup\n-2km Z1 Pace\n\n3x\n-2km 4:40 Z6 Pace\n-2m Z1 Pace\n\nCooldown\n-5m Z1 Pace"
     },
     {
       "id": 95748053,
@@ -1311,6 +1297,19 @@
       "workout_summary": null,
       "has_terrain": false,
       "description": "-14.1km Z2 HR"
+    },
+    {
+      "id": 101258759,
+      "date": "2026-05-10",
+      "name": "T-Sessie",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 73,
+      "duration_hours": 1.02,
+      "duration_formatted": "1h59s",
+      "workout_summary": "14m14s | 3\u00d715s / 1m rec | 2\u00d716m / 3m rec | 5m",
+      "has_terrain": false,
+      "description": "Warmup\n-2km Z1 pace\n\n3x \n-15s Z4 Pace\n-1m Z1 pace\n\n2x\n-16m Z4 Pace\n-3m Z1 Pace\n\nCooldown\n-5m Z1 Pace"
     },
     {
       "id": 101259025,
