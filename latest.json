@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-14T14:18:39.339928",
+    "last_updated": "2026-05-14T15:03:32.989054",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.104"
@@ -150,9 +150,11 @@
     "alarm_refs": []
   },
   "history": {
-    "available": false,
-    "history_confidence": "low",
-    "note": "No history.json available. Longitudinal analysis limited to current 28-day window."
+    "available": true,
+    "last_generated": "2026-05-14",
+    "age_days": 0,
+    "total_months": 6,
+    "history_confidence": "medium"
   },
   "summary": {
     "period_description": "Last 7 days of training (including today)",
@@ -450,12 +452,14 @@
     },
     "phase_detection": {
       "phase": "Base",
-      "confidence": "medium",
-      "reason_codes": [],
+      "confidence": "high",
+      "reason_codes": [
+        "PHASE_TRANSITION_Build_TO_Base"
+      ],
       "basis": {
         "stream_1": {
-          "ctl_slope": null,
-          "acwr_trend": null,
+          "ctl_slope": -0.2,
+          "acwr_trend": "falling",
           "hard_day_pattern": 1,
           "weeks_available": 4
         },
@@ -470,15 +474,17 @@
           "plan_coverage_next_week": 1.67
         },
         "data_quality": "good",
-        "stream_agreement": null
+        "stream_agreement": false
       },
-      "previous_phase": null,
+      "previous_phase": "Build",
       "phase_duration_weeks": 1,
       "dossier_declared": null,
       "dossier_agreement": null
     },
     "phase_detected": "Base",
-    "phase_triggers": [],
+    "phase_triggers": [
+      "PHASE_TRANSITION_Build_TO_Base"
+    ],
     "seasonal_context": "Build / Early Race Season",
     "benchmark_indoor": {
       "current_ftp": null,
@@ -500,7 +506,7 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-14T14:18:39.339766",
+    "calculation_timestamp": "2026-05-14T15:03:32.988170",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
