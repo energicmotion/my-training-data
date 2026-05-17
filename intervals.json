@@ -1,48 +1,10 @@
 {
-  "generated_at": "2026-05-16T23:06:43.253301",
+  "generated_at": "2026-05-17T00:06:24.772133",
   "version": "3.104",
   "script_hash": "74e1c7fc0294",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i144798483",
-      "date": "2026-05-02",
-      "type": "Run",
-      "name": "Long Run",
-      "interval_summary": [
-        "1x 1h34m 6:42",
-        "1x 7m8s 6:45"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "5662s@157bpm77rpm",
-          "duration_secs": 5662,
-          "avg_hr": 157,
-          "max_hr": 177,
-          "avg_cadence": 76.61308,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "428s@158bpm77rpm",
-          "duration_secs": 428,
-          "avg_hr": 158,
-          "max_hr": 162,
-          "avg_cadence": 77.334984,
-          "zone": 1
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 5,
-          "avg_hr": 160,
-          "max_hr": 161,
-          "avg_cadence": 77.0,
-          "zone": 1
-        }
-      ]
-    },
     {
       "activity_id": "i146529796",
       "date": "2026-05-08",
