@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-27T01:31:47.559822",
+    "last_updated": "2026-05-27T06:01:21.898421",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.104"
@@ -101,7 +101,7 @@
       "value": 4,
       "severity": "info",
       "threshold": "RACE_B within 7 days",
-      "context": "Race week D-4 of 'Vestingloop'. Today: Easy / rest, 0-7 TSS. Z1-Z2 only",
+      "context": "Race week D-4 of 'Vestingloop'. Today: Easy / rest, 0-6 TSS. Z1-Z2 only",
       "persistence_days": null,
       "tier": 1
     }
@@ -138,7 +138,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": 2.2
+        "value": 4.4
       }
     },
     "signal_summary": {
@@ -181,10 +181,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 16.31,
-      "atl": 14.1,
-      "tsb": 2.21,
-      "ramp_rate": -0.52,
+      "ctl": 15.76,
+      "atl": 11.33,
+      "tsb": 4.43,
+      "ramp_rate": -1.07,
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
@@ -515,7 +515,7 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-27T01:31:47.558908",
+    "calculation_timestamp": "2026-05-27T06:01:21.897504",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
@@ -1737,18 +1737,18 @@
       "event_moving_time_seconds": 2940,
       "days_until_event": 4,
       "current_day": "D-4",
-      "ctl_baseline": 16.3,
-      "normal_weekly_tss": 114.2,
+      "ctl_baseline": 15.8,
+      "normal_weekly_tss": 110.3,
       "race_week_tss_budget": {
-        "min": 57,
-        "max": 74
+        "min": 55,
+        "max": 72
       },
       "race_week_tss_spent": 0,
       "race_week_tss_remaining": {
-        "min": 57,
-        "max": 74
+        "min": 55,
+        "max": 72
       },
-      "projected_race_day_tsb": 6.9,
+      "projected_race_day_tsb": 7.9,
       "tsb_target_range": {
         "min": 0,
         "max": 10
@@ -1757,7 +1757,7 @@
         "label": "Easy / rest",
         "load_target_tss": {
           "min": 0,
-          "max": 7
+          "max": 6
         },
         "zones": "Z1-Z2 only",
         "purpose": "Volume reduction. Carb loading begins if applicable."
