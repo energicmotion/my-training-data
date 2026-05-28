@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-28T02:32:40.249139",
+    "last_updated": "2026-05-28T06:38:20.621526",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.104"
@@ -92,7 +92,7 @@
       "value": 3,
       "severity": "info",
       "threshold": "RACE_B within 7 days",
-      "context": "Race week D-3 of 'Vestingloop'. Today: Easy / rest, 0-7 TSS. Z1-Z2 only",
+      "context": "Race week D-3 of 'Vestingloop'. Today: Easy / rest, 0-6 TSS. Z1-Z2 only",
       "persistence_days": null,
       "tier": 1
     }
@@ -129,7 +129,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": 1.4
+        "value": 5.6
       }
     },
     "signal_summary": {
@@ -165,10 +165,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 16.42,
-      "atl": 15.02,
-      "tsb": 1.4,
-      "ramp_rate": -1.76,
+      "ctl": 15.39,
+      "atl": 9.82,
+      "tsb": 5.57,
+      "ramp_rate": -2.79,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -476,7 +476,7 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-28T02:32:40.248165",
+    "calculation_timestamp": "2026-05-28T06:38:20.620620",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
@@ -1646,18 +1646,18 @@
       "event_moving_time_seconds": 2940,
       "days_until_event": 3,
       "current_day": "D-3",
-      "ctl_baseline": 16.4,
-      "normal_weekly_tss": 114.9,
+      "ctl_baseline": 15.4,
+      "normal_weekly_tss": 107.7,
       "race_week_tss_budget": {
-        "min": 57,
-        "max": 75
+        "min": 54,
+        "max": 70
       },
       "race_week_tss_spent": 0,
       "race_week_tss_remaining": {
-        "min": 57,
-        "max": 75
+        "min": 54,
+        "max": 70
       },
-      "projected_race_day_tsb": 5.5,
+      "projected_race_day_tsb": 7.9,
       "tsb_target_range": {
         "min": 0,
         "max": 10
@@ -1666,7 +1666,7 @@
         "label": "Easy / rest",
         "load_target_tss": {
           "min": 0,
-          "max": 7
+          "max": 6
         },
         "zones": "Z1-Z2 only",
         "purpose": "Taper tantrums expected (D-4 to D-2). Normal \u2014 not lost fitness."
