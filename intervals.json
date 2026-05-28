@@ -1,38 +1,10 @@
 {
-  "generated_at": "2026-05-27T23:55:36.415789",
+  "generated_at": "2026-05-28T02:32:40.246162",
   "version": "3.104",
   "script_hash": "74e1c7fc0294",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i147850092",
-      "date": "2026-05-13",
-      "type": "Run",
-      "name": "Easy Run\ud83d\ude41",
-      "interval_summary": [
-        "1x 40m41s 6:47"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "2441s@155bpm75rpm",
-          "duration_secs": 2441,
-          "avg_hr": 155,
-          "max_hr": 163,
-          "avg_cadence": 75.35144,
-          "zone": 1
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 3,
-          "avg_hr": 157,
-          "max_hr": 157,
-          "avg_cadence": 75.0,
-          "zone": 1
-        }
-      ]
-    },
     {
       "activity_id": "i148087290",
       "date": "2026-05-14",
