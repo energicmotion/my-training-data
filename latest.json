@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-30T04:15:33.486506",
+    "last_updated": "2026-05-30T07:24:26.376607",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.104"
@@ -129,7 +129,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": 5.2
+        "value": 7.3
       }
     },
     "signal_summary": {
@@ -165,10 +165,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 15.2,
-      "atl": 10.04,
-      "tsb": 5.16,
-      "ramp_rate": -2.13,
+      "ctl": 14.67,
+      "atl": 7.38,
+      "tsb": 7.29,
+      "ramp_rate": -2.66,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -476,7 +476,7 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-30T04:15:33.485676",
+    "calculation_timestamp": "2026-05-30T07:24:26.375744",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
@@ -1608,18 +1608,18 @@
       "event_moving_time_seconds": 2940,
       "days_until_event": 1,
       "current_day": "D-1",
-      "ctl_baseline": 15.2,
-      "normal_weekly_tss": 106.4,
+      "ctl_baseline": 14.7,
+      "normal_weekly_tss": 102.7,
       "race_week_tss_budget": {
-        "min": 53,
-        "max": 69
+        "min": 51,
+        "max": 67
       },
       "race_week_tss_spent": 0,
       "race_week_tss_remaining": {
-        "min": 53,
-        "max": 69
+        "min": 51,
+        "max": 67
       },
-      "projected_race_day_tsb": 6.1,
+      "projected_race_day_tsb": 7.9,
       "tsb_target_range": {
         "min": 0,
         "max": 10
