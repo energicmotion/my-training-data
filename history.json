@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-01T05:13:28.486514",
+  "generated_at": "2026-06-01T06:14:55.222537",
   "source": "Intervals.icu API",
-  "sync_version": "3.104",
-  "script_hash": "74e1c7fc0294",
+  "sync_version": "3.112",
+  "script_hash": "f6d3f912d372",
   "data_range": {
     "earliest": "2025-10-16",
     "latest": "2026-05-31",
@@ -127,6 +127,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": false,
       "intensity_basis": "hr",
       "fatigue": null,
@@ -171,6 +174,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": true,
       "intensity_basis": "hr",
       "fatigue": null,
@@ -215,6 +221,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": null,
       "intensity_basis": null,
       "fatigue": null,
@@ -259,6 +268,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": null,
       "intensity_basis": null,
       "fatigue": null,
@@ -303,6 +315,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": null,
       "intensity_basis": null,
       "fatigue": null,
@@ -347,6 +362,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": null,
       "intensity_basis": null,
       "fatigue": null,
@@ -391,6 +409,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": null,
       "intensity_basis": null,
       "fatigue": null,
@@ -435,6 +456,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": null,
       "intensity_basis": null,
       "fatigue": null,
@@ -479,6 +503,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": true,
       "intensity_basis": "hr",
       "fatigue": null,
@@ -523,6 +550,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": null,
       "intensity_basis": null,
       "fatigue": null,
@@ -567,6 +597,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": null,
       "intensity_basis": null,
       "fatigue": null,
@@ -611,6 +644,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": null,
       "intensity_basis": null,
       "fatigue": null,
@@ -655,6 +691,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": null,
       "intensity_basis": null,
       "fatigue": null,
@@ -699,6 +738,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": true,
       "intensity_basis": "hr",
       "fatigue": null,
@@ -743,6 +785,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": false,
       "intensity_basis": "hr",
       "fatigue": null,
@@ -787,6 +832,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": false,
       "intensity_basis": "hr",
       "fatigue": null,
@@ -831,6 +879,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": null,
       "intensity_basis": null,
       "fatigue": null,
@@ -875,6 +926,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": null,
       "intensity_basis": null,
       "fatigue": null,
@@ -919,6 +973,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": null,
       "intensity_basis": null,
       "fatigue": null,
@@ -963,6 +1020,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": null,
       "intensity_basis": null,
       "fatigue": null,
@@ -1007,6 +1067,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": null,
       "intensity_basis": null,
       "fatigue": null,
@@ -1051,6 +1114,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": null,
       "intensity_basis": null,
       "fatigue": null,
@@ -1095,6 +1161,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": null,
       "intensity_basis": null,
       "fatigue": null,
@@ -1139,6 +1208,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": null,
       "intensity_basis": null,
       "fatigue": null,
@@ -1183,6 +1255,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": false,
       "intensity_basis": "hr",
       "fatigue": null,
@@ -1227,6 +1302,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": false,
       "intensity_basis": "hr",
       "fatigue": null,
@@ -1271,6 +1349,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": null,
       "intensity_basis": null,
       "fatigue": null,
@@ -1315,6 +1396,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": true,
       "intensity_basis": "hr",
       "fatigue": null,
@@ -1359,6 +1443,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": null,
       "intensity_basis": null,
       "fatigue": null,
@@ -1403,6 +1490,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": null,
       "intensity_basis": null,
       "fatigue": null,
@@ -1447,6 +1537,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": null,
       "intensity_basis": null,
       "fatigue": null,
@@ -1491,6 +1584,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": null,
       "intensity_basis": null,
       "fatigue": null,
@@ -1535,6 +1631,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": null,
       "intensity_basis": null,
       "fatigue": null,
@@ -1579,6 +1678,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": false,
       "intensity_basis": "hr",
       "fatigue": null,
@@ -1623,6 +1725,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": false,
       "intensity_basis": "hr",
       "fatigue": null,
@@ -1667,6 +1772,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": null,
       "intensity_basis": null,
       "fatigue": null,
@@ -1711,6 +1819,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": null,
       "intensity_basis": null,
       "fatigue": null,
@@ -1755,6 +1866,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": null,
       "intensity_basis": null,
       "fatigue": null,
@@ -1799,6 +1913,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": null,
       "intensity_basis": null,
       "fatigue": null,
@@ -1843,6 +1960,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": null,
       "intensity_basis": null,
       "fatigue": null,
@@ -1887,6 +2007,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": false,
       "intensity_basis": "hr",
       "fatigue": null,
@@ -1931,6 +2054,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": null,
       "intensity_basis": null,
       "fatigue": null,
@@ -1975,6 +2101,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": null,
       "intensity_basis": null,
       "fatigue": null,
@@ -2019,6 +2148,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": null,
       "intensity_basis": null,
       "fatigue": null,
@@ -2063,6 +2195,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": null,
       "intensity_basis": null,
       "fatigue": null,
@@ -2107,6 +2242,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": null,
       "intensity_basis": null,
       "fatigue": null,
@@ -2151,6 +2289,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": null,
       "intensity_basis": null,
       "fatigue": null,
@@ -2195,6 +2336,12 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": 80.4,
+      "display": {
+        "weight": {
+          "value": 80.4,
+          "unit": "kg"
+        }
+      },
       "is_hard_day": false,
       "intensity_basis": "hr",
       "fatigue": null,
@@ -2239,6 +2386,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": null,
       "intensity_basis": null,
       "fatigue": null,
@@ -2283,6 +2433,9 @@
       "sleep_quality": 3,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": false,
       "intensity_basis": "hr",
       "fatigue": null,
@@ -2327,6 +2480,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": true,
       "intensity_basis": "hr",
       "fatigue": null,
@@ -2371,6 +2527,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": null,
       "intensity_basis": null,
       "fatigue": null,
@@ -2415,6 +2574,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": false,
       "intensity_basis": "hr",
       "fatigue": null,
@@ -2459,6 +2621,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": false,
       "intensity_basis": "hr",
       "fatigue": null,
@@ -2503,6 +2668,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": null,
       "intensity_basis": null,
       "fatigue": null,
@@ -2547,6 +2715,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": null,
       "intensity_basis": null,
       "fatigue": null,
@@ -2591,6 +2762,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": false,
       "intensity_basis": "hr",
       "fatigue": null,
@@ -2635,6 +2809,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": true,
       "intensity_basis": "hr",
       "fatigue": null,
@@ -2679,6 +2856,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": null,
       "intensity_basis": null,
       "fatigue": null,
@@ -2723,6 +2903,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": false,
       "intensity_basis": "hr",
       "fatigue": null,
@@ -2767,6 +2950,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": null,
       "intensity_basis": null,
       "fatigue": null,
@@ -2811,6 +2997,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": null,
       "intensity_basis": null,
       "fatigue": null,
@@ -2855,6 +3044,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": null,
       "intensity_basis": null,
       "fatigue": null,
@@ -2899,6 +3091,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": null,
       "intensity_basis": null,
       "fatigue": null,
@@ -2943,6 +3138,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": null,
       "intensity_basis": null,
       "fatigue": null,
@@ -2987,6 +3185,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": true,
       "intensity_basis": "hr",
       "fatigue": null,
@@ -3031,6 +3232,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": null,
       "intensity_basis": null,
       "fatigue": null,
@@ -3075,6 +3279,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": null,
       "intensity_basis": null,
       "fatigue": null,
@@ -3119,6 +3326,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": null,
       "intensity_basis": null,
       "fatigue": null,
@@ -3163,6 +3373,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": null,
       "intensity_basis": null,
       "fatigue": null,
@@ -3207,6 +3420,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": false,
       "intensity_basis": "hr",
       "fatigue": null,
@@ -3251,6 +3467,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": true,
       "intensity_basis": "hr",
       "fatigue": null,
@@ -3295,6 +3514,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": null,
       "intensity_basis": null,
       "fatigue": null,
@@ -3339,6 +3561,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": false,
       "intensity_basis": "hr",
       "fatigue": null,
@@ -3383,6 +3608,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": null,
       "intensity_basis": null,
       "fatigue": null,
@@ -3427,6 +3655,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": null,
       "intensity_basis": null,
       "fatigue": null,
@@ -3471,6 +3702,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": true,
       "intensity_basis": "hr",
       "fatigue": null,
@@ -3515,6 +3749,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": false,
       "intensity_basis": "hr",
       "fatigue": null,
@@ -3559,6 +3796,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": true,
       "intensity_basis": "hr",
       "fatigue": null,
@@ -3603,6 +3843,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": null,
       "intensity_basis": null,
       "fatigue": null,
@@ -3647,6 +3890,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": null,
       "intensity_basis": null,
       "fatigue": null,
@@ -3691,6 +3937,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": null,
       "intensity_basis": null,
       "fatigue": null,
@@ -3735,6 +3984,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": null,
       "intensity_basis": null,
       "fatigue": null,
@@ -3779,6 +4031,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": null,
       "intensity_basis": null,
       "fatigue": null,
@@ -3823,6 +4078,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": null,
       "intensity_basis": null,
       "fatigue": null,
@@ -3867,6 +4125,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": null,
       "intensity_basis": null,
       "fatigue": null,
@@ -3911,6 +4172,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": null,
       "intensity_basis": null,
       "fatigue": null,
@@ -3955,6 +4219,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": false,
       "intensity_basis": "hr",
       "fatigue": null,
@@ -3999,6 +4266,9 @@
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": true,
       "intensity_basis": "hr",
       "fatigue": null,
@@ -4017,7 +4287,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 16529,
+      "steps": 16536,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -4036,13 +4306,16 @@
       "ctl": 18.36575,
       "atl": 27.204111,
       "tsb": -8.8,
-      "hrv": null,
-      "rhr": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
+      "hrv": 39.0,
+      "rhr": 60,
+      "sleep_hours": 5.95,
+      "sleep_formatted": "5h57m",
       "sleep_quality": null,
       "sleep_score": null,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "is_hard_day": null,
       "intensity_basis": null,
       "fatigue": null,
@@ -4061,7 +4334,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 25,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -4100,13 +4373,22 @@
       "avg_rpe": null,
       "rpe_count": 0,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "monotony": 0.76,
       "intensity_basis_breakdown": {
         "power": 0,
         "hr": 1
       },
       "acwr": null,
-      "phase_detected": null
+      "phase_detected": null,
+      "durability_mean": null,
+      "durability_qualifying": 0,
+      "ef_mean": null,
+      "ef_qualifying": 0,
+      "hrrc_mean": null,
+      "hrrc_qualifying": 0
     },
     {
       "week_start": "2025-12-08",
@@ -4135,13 +4417,22 @@
       "avg_rpe": null,
       "rpe_count": 0,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "monotony": 0.99,
       "intensity_basis_breakdown": {
         "power": 0,
         "hr": 1
       },
       "acwr": null,
-      "phase_detected": "Build"
+      "phase_detected": "Build",
+      "durability_mean": null,
+      "durability_qualifying": 0,
+      "ef_mean": null,
+      "ef_qualifying": 0,
+      "hrrc_mean": 14.0,
+      "hrrc_qualifying": 2
     },
     {
       "week_start": "2025-12-15",
@@ -4170,10 +4461,19 @@
       "avg_rpe": null,
       "rpe_count": 0,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "monotony": null,
       "intensity_basis_breakdown": null,
       "acwr": null,
-      "phase_detected": "Build"
+      "phase_detected": "Build",
+      "durability_mean": null,
+      "durability_qualifying": 0,
+      "ef_mean": null,
+      "ef_qualifying": 0,
+      "hrrc_mean": null,
+      "hrrc_qualifying": 0
     },
     {
       "week_start": "2025-12-22",
@@ -4202,10 +4502,19 @@
       "avg_rpe": null,
       "rpe_count": 0,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "monotony": null,
       "intensity_basis_breakdown": null,
       "acwr": 0.01,
-      "phase_detected": "Base"
+      "phase_detected": "Base",
+      "durability_mean": null,
+      "durability_qualifying": 0,
+      "ef_mean": null,
+      "ef_qualifying": 0,
+      "hrrc_mean": null,
+      "hrrc_qualifying": 0
     },
     {
       "week_start": "2025-12-29",
@@ -4235,10 +4544,19 @@
       "avg_rpe": null,
       "rpe_count": 0,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "monotony": 0.96,
       "intensity_basis_breakdown": null,
       "acwr": 1.83,
-      "phase_detected": "Base"
+      "phase_detected": "Base",
+      "durability_mean": null,
+      "durability_qualifying": 0,
+      "ef_mean": null,
+      "ef_qualifying": 0,
+      "hrrc_mean": 30.0,
+      "hrrc_qualifying": 1
     },
     {
       "week_start": "2026-01-05",
@@ -4267,13 +4585,22 @@
       "avg_rpe": null,
       "rpe_count": 0,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "monotony": 1.15,
       "intensity_basis_breakdown": {
         "power": 0,
         "hr": 1
       },
       "acwr": 1.45,
-      "phase_detected": "Base"
+      "phase_detected": "Base",
+      "durability_mean": null,
+      "durability_qualifying": 0,
+      "ef_mean": null,
+      "ef_qualifying": 0,
+      "hrrc_mean": 36.0,
+      "hrrc_qualifying": 1
     },
     {
       "week_start": "2026-01-12",
@@ -4302,13 +4629,22 @@
       "avg_rpe": null,
       "rpe_count": 0,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "monotony": 0.71,
       "intensity_basis_breakdown": {
         "power": 0,
         "hr": 1
       },
       "acwr": 0.82,
-      "phase_detected": "Base"
+      "phase_detected": "Base",
+      "durability_mean": null,
+      "durability_qualifying": 0,
+      "ef_mean": null,
+      "ef_qualifying": 0,
+      "hrrc_mean": 33.0,
+      "hrrc_qualifying": 1
     },
     {
       "week_start": "2026-01-19",
@@ -4337,10 +4673,19 @@
       "avg_rpe": null,
       "rpe_count": 0,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "monotony": 1.15,
       "intensity_basis_breakdown": null,
       "acwr": 0.8,
-      "phase_detected": "Base"
+      "phase_detected": "Base",
+      "durability_mean": null,
+      "durability_qualifying": 0,
+      "ef_mean": null,
+      "ef_qualifying": 0,
+      "hrrc_mean": null,
+      "hrrc_qualifying": 0
     },
     {
       "week_start": "2026-01-26",
@@ -4369,13 +4714,22 @@
       "avg_rpe": null,
       "rpe_count": 0,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "monotony": 0.9,
       "intensity_basis_breakdown": {
         "power": 0,
         "hr": 2
       },
       "acwr": 1.98,
-      "phase_detected": "Base"
+      "phase_detected": "Base",
+      "durability_mean": null,
+      "durability_qualifying": 0,
+      "ef_mean": null,
+      "ef_qualifying": 0,
+      "hrrc_mean": 13.5,
+      "hrrc_qualifying": 2
     },
     {
       "week_start": "2026-02-02",
@@ -4404,10 +4758,19 @@
       "avg_rpe": null,
       "rpe_count": 0,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "monotony": 0.72,
       "intensity_basis_breakdown": null,
       "acwr": 0.92,
-      "phase_detected": "Base"
+      "phase_detected": "Base",
+      "durability_mean": null,
+      "durability_qualifying": 0,
+      "ef_mean": null,
+      "ef_qualifying": 0,
+      "hrrc_mean": null,
+      "hrrc_qualifying": 0
     },
     {
       "week_start": "2026-02-09",
@@ -4437,10 +4800,19 @@
       "avg_rpe": null,
       "rpe_count": 0,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "monotony": null,
       "intensity_basis_breakdown": null,
       "acwr": 0.25,
-      "phase_detected": "Base"
+      "phase_detected": "Base",
+      "durability_mean": null,
+      "durability_qualifying": 0,
+      "ef_mean": null,
+      "ef_qualifying": 0,
+      "hrrc_mean": null,
+      "hrrc_qualifying": 0
     },
     {
       "week_start": "2026-02-16",
@@ -4470,13 +4842,22 @@
       "avg_rpe": null,
       "rpe_count": 0,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "monotony": null,
       "intensity_basis_breakdown": {
         "power": 0,
         "hr": 1
       },
       "acwr": 0.91,
-      "phase_detected": "Base"
+      "phase_detected": "Base",
+      "durability_mean": null,
+      "durability_qualifying": 0,
+      "ef_mean": null,
+      "ef_qualifying": 0,
+      "hrrc_mean": null,
+      "hrrc_qualifying": 0
     },
     {
       "week_start": "2026-02-23",
@@ -4505,13 +4886,25 @@
       "avg_rpe": null,
       "rpe_count": 0,
       "weight_kg": 78.4,
+      "display": {
+        "weight": {
+          "value": 78.4,
+          "unit": "kg"
+        }
+      },
       "monotony": 1.0,
       "intensity_basis_breakdown": {
         "power": 0,
         "hr": 3
       },
       "acwr": 2.58,
-      "phase_detected": "Base"
+      "phase_detected": "Base",
+      "durability_mean": null,
+      "durability_qualifying": 0,
+      "ef_mean": null,
+      "ef_qualifying": 0,
+      "hrrc_mean": 24.5,
+      "hrrc_qualifying": 2
     },
     {
       "week_start": "2026-03-02",
@@ -4540,13 +4933,22 @@
       "avg_rpe": null,
       "rpe_count": 0,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "monotony": 0.79,
       "intensity_basis_breakdown": {
         "power": 0,
         "hr": 2
       },
       "acwr": 1.2,
-      "phase_detected": "Build"
+      "phase_detected": "Build",
+      "durability_mean": null,
+      "durability_qualifying": 0,
+      "ef_mean": null,
+      "ef_qualifying": 0,
+      "hrrc_mean": 16.5,
+      "hrrc_qualifying": 2
     },
     {
       "week_start": "2026-03-09",
@@ -4575,13 +4977,22 @@
       "avg_rpe": null,
       "rpe_count": 0,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "monotony": null,
       "intensity_basis_breakdown": {
         "power": 0,
         "hr": 1
       },
       "acwr": 0.29,
-      "phase_detected": "Deload"
+      "phase_detected": "Deload",
+      "durability_mean": null,
+      "durability_qualifying": 0,
+      "ef_mean": null,
+      "ef_qualifying": 0,
+      "hrrc_mean": 18.0,
+      "hrrc_qualifying": 1
     },
     {
       "week_start": "2026-03-16",
@@ -4611,13 +5022,22 @@
       "avg_rpe": null,
       "rpe_count": 0,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "monotony": 0.62,
       "intensity_basis_breakdown": {
         "power": 0,
         "hr": 1
       },
       "acwr": 0.77,
-      "phase_detected": "Deload"
+      "phase_detected": "Deload",
+      "durability_mean": null,
+      "durability_qualifying": 0,
+      "ef_mean": null,
+      "ef_qualifying": 0,
+      "hrrc_mean": null,
+      "hrrc_qualifying": 0
     },
     {
       "week_start": "2026-03-23",
@@ -4646,10 +5066,19 @@
       "avg_rpe": null,
       "rpe_count": 0,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "monotony": null,
       "intensity_basis_breakdown": null,
       "acwr": 0.99,
-      "phase_detected": "Base"
+      "phase_detected": "Base",
+      "durability_mean": null,
+      "durability_qualifying": 0,
+      "ef_mean": null,
+      "ef_qualifying": 0,
+      "hrrc_mean": 12.0,
+      "hrrc_qualifying": 1
     },
     {
       "week_start": "2026-03-30",
@@ -4678,13 +5107,22 @@
       "avg_rpe": null,
       "rpe_count": 0,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "monotony": null,
       "intensity_basis_breakdown": {
         "power": 0,
         "hr": 1
       },
       "acwr": 0.87,
-      "phase_detected": "Base"
+      "phase_detected": "Base",
+      "durability_mean": null,
+      "durability_qualifying": 0,
+      "ef_mean": null,
+      "ef_qualifying": 0,
+      "hrrc_mean": 29.0,
+      "hrrc_qualifying": 1
     },
     {
       "week_start": "2026-04-06",
@@ -4714,10 +5152,19 @@
       "avg_rpe": null,
       "rpe_count": 0,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "monotony": null,
       "intensity_basis_breakdown": null,
       "acwr": 0.58,
-      "phase_detected": "Base"
+      "phase_detected": "Base",
+      "durability_mean": null,
+      "durability_qualifying": 0,
+      "ef_mean": null,
+      "ef_qualifying": 0,
+      "hrrc_mean": null,
+      "hrrc_qualifying": 0
     },
     {
       "week_start": "2026-04-13",
@@ -4746,10 +5193,19 @@
       "avg_rpe": null,
       "rpe_count": 0,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "monotony": null,
       "intensity_basis_breakdown": null,
       "acwr": 0.15,
-      "phase_detected": "Recovery"
+      "phase_detected": "Recovery",
+      "durability_mean": null,
+      "durability_qualifying": 0,
+      "ef_mean": null,
+      "ef_qualifying": 0,
+      "hrrc_mean": null,
+      "hrrc_qualifying": 0
     },
     {
       "week_start": "2026-04-20",
@@ -4778,13 +5234,25 @@
       "avg_rpe": null,
       "rpe_count": 0,
       "weight_kg": 80.4,
+      "display": {
+        "weight": {
+          "value": 80.4,
+          "unit": "kg"
+        }
+      },
       "monotony": 1.31,
       "intensity_basis_breakdown": {
         "power": 0,
         "hr": 1
       },
       "acwr": 5.49,
-      "phase_detected": null
+      "phase_detected": null,
+      "durability_mean": null,
+      "durability_qualifying": 0,
+      "ef_mean": null,
+      "ef_qualifying": 0,
+      "hrrc_mean": 13.0,
+      "hrrc_qualifying": 1
     },
     {
       "week_start": "2026-04-27",
@@ -4813,13 +5281,22 @@
       "avg_rpe": null,
       "rpe_count": 0,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "monotony": 0.71,
       "intensity_basis_breakdown": {
         "power": 0,
         "hr": 1
       },
       "acwr": 1.64,
-      "phase_detected": "Build"
+      "phase_detected": "Build",
+      "durability_mean": null,
+      "durability_qualifying": 0,
+      "ef_mean": null,
+      "ef_qualifying": 0,
+      "hrrc_mean": 32.0,
+      "hrrc_qualifying": 1
     },
     {
       "week_start": "2026-05-04",
@@ -4848,13 +5325,22 @@
       "avg_rpe": null,
       "rpe_count": 0,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "monotony": null,
       "intensity_basis_breakdown": {
         "power": 0,
         "hr": 1
       },
       "acwr": 0.24,
-      "phase_detected": "Build"
+      "phase_detected": "Build",
+      "durability_mean": null,
+      "durability_qualifying": 0,
+      "ef_mean": null,
+      "ef_qualifying": 0,
+      "hrrc_mean": null,
+      "hrrc_qualifying": 0
     },
     {
       "week_start": "2026-05-11",
@@ -4883,13 +5369,22 @@
       "avg_rpe": null,
       "rpe_count": 0,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "monotony": 0.73,
       "intensity_basis_breakdown": {
         "power": 0,
         "hr": 1
       },
       "acwr": 1.3,
-      "phase_detected": "Base"
+      "phase_detected": "Base",
+      "durability_mean": null,
+      "durability_qualifying": 0,
+      "ef_mean": null,
+      "ef_qualifying": 0,
+      "hrrc_mean": 40.0,
+      "hrrc_qualifying": 1
     },
     {
       "week_start": "2026-05-18",
@@ -4918,13 +5413,22 @@
       "avg_rpe": null,
       "rpe_count": 0,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "monotony": 0.78,
       "intensity_basis_breakdown": {
         "power": 0,
         "hr": 2
       },
       "acwr": 0.83,
-      "phase_detected": "Base"
+      "phase_detected": "Base",
+      "durability_mean": null,
+      "durability_qualifying": 0,
+      "ef_mean": null,
+      "ef_qualifying": 0,
+      "hrrc_mean": 30.0,
+      "hrrc_qualifying": 2
     },
     {
       "week_start": "2026-05-25",
@@ -4953,13 +5457,22 @@
       "avg_rpe": null,
       "rpe_count": 0,
       "weight_kg": null,
+      "display": {
+        "weight": null
+      },
       "monotony": null,
       "intensity_basis_breakdown": {
         "power": 0,
         "hr": 1
       },
       "acwr": 0.94,
-      "phase_detected": null
+      "phase_detected": null,
+      "durability_mean": null,
+      "durability_qualifying": 0,
+      "ef_mean": null,
+      "ef_qualifying": 0,
+      "hrrc_mean": null,
+      "hrrc_qualifying": 0
     }
   ],
   "monthly_1y": [
@@ -4979,7 +5492,10 @@
       "hard_days_avg_per_week": 0.0,
       "longest_ride_hours": 0.0,
       "avg_weight_kg": null,
-      "dominant_phase": "Unknown",
+      "display": {
+        "avg_weight": null
+      },
+      "dominant_phase": null,
       "days_with_data": 0
     },
     {
@@ -4998,7 +5514,10 @@
       "hard_days_avg_per_week": 0.0,
       "longest_ride_hours": 0.0,
       "avg_weight_kg": null,
-      "dominant_phase": "Unknown",
+      "display": {
+        "avg_weight": null
+      },
+      "dominant_phase": null,
       "days_with_data": 0
     },
     {
@@ -5017,7 +5536,10 @@
       "hard_days_avg_per_week": 0.0,
       "longest_ride_hours": 0.0,
       "avg_weight_kg": null,
-      "dominant_phase": "Unknown",
+      "display": {
+        "avg_weight": null
+      },
+      "dominant_phase": null,
       "days_with_data": 0
     },
     {
@@ -5036,7 +5558,10 @@
       "hard_days_avg_per_week": 0.0,
       "longest_ride_hours": 0.0,
       "avg_weight_kg": null,
-      "dominant_phase": "Unknown",
+      "display": {
+        "avg_weight": null
+      },
+      "dominant_phase": null,
       "days_with_data": 0
     },
     {
@@ -5055,7 +5580,10 @@
       "hard_days_avg_per_week": 0.2,
       "longest_ride_hours": 1.32,
       "avg_weight_kg": null,
-      "dominant_phase": "Base",
+      "display": {
+        "avg_weight": null
+      },
+      "dominant_phase": null,
       "days_with_data": 17
     },
     {
@@ -5074,7 +5602,10 @@
       "hard_days_avg_per_week": 0.0,
       "longest_ride_hours": 1.78,
       "avg_weight_kg": null,
-      "dominant_phase": "Base",
+      "display": {
+        "avg_weight": null
+      },
+      "dominant_phase": null,
       "days_with_data": 30
     },
     {
@@ -5093,7 +5624,10 @@
       "hard_days_avg_per_week": 0.5,
       "longest_ride_hours": 1.77,
       "avg_weight_kg": null,
-      "dominant_phase": "Base",
+      "display": {
+        "avg_weight": null
+      },
+      "dominant_phase": "Build",
       "days_with_data": 31
     },
     {
@@ -5112,6 +5646,9 @@
       "hard_days_avg_per_week": 0.9,
       "longest_ride_hours": 1.05,
       "avg_weight_kg": null,
+      "display": {
+        "avg_weight": null
+      },
       "dominant_phase": "Base",
       "days_with_data": 31
     },
@@ -5131,7 +5668,13 @@
       "hard_days_avg_per_week": 0.8,
       "longest_ride_hours": 1.34,
       "avg_weight_kg": 78.4,
-      "dominant_phase": "Maintenance",
+      "display": {
+        "avg_weight": {
+          "value": 78.4,
+          "unit": "kg"
+        }
+      },
+      "dominant_phase": "Base",
       "days_with_data": 28
     },
     {
@@ -5150,7 +5693,10 @@
       "hard_days_avg_per_week": 1.4,
       "longest_ride_hours": 0.97,
       "avg_weight_kg": null,
-      "dominant_phase": "Maintenance",
+      "display": {
+        "avg_weight": null
+      },
+      "dominant_phase": "Base",
       "days_with_data": 31
     },
     {
@@ -5169,7 +5715,13 @@
       "hard_days_avg_per_week": 0.5,
       "longest_ride_hours": 1.19,
       "avg_weight_kg": 80.4,
-      "dominant_phase": "Maintenance",
+      "display": {
+        "avg_weight": {
+          "value": 80.4,
+          "unit": "kg"
+        }
+      },
+      "dominant_phase": "Base",
       "days_with_data": 30
     },
     {
@@ -5188,7 +5740,10 @@
       "hard_days_avg_per_week": 1.1,
       "longest_ride_hours": 1.69,
       "avg_weight_kg": null,
-      "dominant_phase": "Build",
+      "display": {
+        "avg_weight": null
+      },
+      "dominant_phase": "Base",
       "days_with_data": 31
     },
     {
@@ -5199,15 +5754,18 @@
       "ctl_peak": 18.4,
       "ctl_low": 18.4,
       "ctl_end": 18.4,
-      "avg_hrv": null,
-      "avg_rhr": null,
+      "avg_hrv": 39.0,
+      "avg_rhr": 60,
       "z1_z2_pct": null,
       "z3_pct": null,
       "z4_plus_pct": null,
       "hard_days_avg_per_week": 0.0,
       "longest_ride_hours": 0.0,
       "avg_weight_kg": null,
-      "dominant_phase": "Unknown",
+      "display": {
+        "avg_weight": null
+      },
+      "dominant_phase": null,
       "days_with_data": 1
     }
   ],
