@@ -62,15 +62,15 @@
       "menstrual": "menstrual_phase and menstrual_phase_predicted are not on the 1-4 scale. Values: PERIOD, FOLLICULAR, OVULATION, LUTEAL, etc."
     },
     "quick_stats": {
-      "total_training_hours": 1.36,
-      "total_training_formatted": "1h21m",
-      "total_activities": 3,
-      "total_tss": 107
+      "total_training_hours": 1.98,
+      "total_training_formatted": "1h58m",
+      "total_activities": 4,
+      "total_tss": 135
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-03T15:12:55.014477",
+    "last_updated": "2026-06-03T18:58:39.363054",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -100,17 +100,7 @@
     "years_on_platform": 0
   },
   "athlete_notes": null,
-  "alerts": [
-    {
-      "metric": "tid_distribution",
-      "value": "High Intensity",
-      "severity": "warning",
-      "threshold": "7d/28d classification mismatch",
-      "context": "TID shift: 7d High Intensity vs 28d Polarized. Training distribution changing.",
-      "persistence_days": null,
-      "tier": 3
-    }
-  ],
+  "alerts": [],
   "readiness_decision": {
     "recommendation": "go",
     "priority": 3,
@@ -134,7 +124,7 @@
       },
       "acwr": {
         "status": "green",
-        "value": 0.95
+        "value": 1.13
       },
       "ri": {
         "status": "green",
@@ -143,7 +133,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": 2.5
+        "value": -0.6
       }
     },
     "signal_summary": {
@@ -173,17 +163,17 @@
   "summary": {
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
-    "total_duration_decimal_hours": 1.36,
-    "total_activities": 3,
+    "total_duration_decimal_hours": 1.98,
+    "total_activities": 4,
     "by_activity_type": {
       "Run": {
-        "duration_decimal_hours": 1.36,
-        "count": 3,
-        "tss": 107,
-        "distance_km": 15.0,
+        "duration_decimal_hours": 1.98,
+        "count": 4,
+        "tss": 135,
+        "distance_km": 20.0,
         "display": {
           "distance": {
-            "value": 15.0,
+            "value": 20.0,
             "unit": "km"
           }
         }
@@ -192,11 +182,11 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 15.67,
-      "atl": 13.16,
-      "tsb": 2.51,
-      "ramp_rate": -0.09,
-      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
+      "ctl": 16.33,
+      "atl": 16.89,
+      "tsb": -0.56,
+      "ramp_rate": 0.57,
+      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
       "eftp": null,
@@ -214,7 +204,7 @@
           "ftp_indoor": null
         },
         "run": {
-          "lthr": 180,
+          "lthr": 181,
           "max_hr": 204,
           "threshold_pace": 3.3557048,
           "pace_units": "MINS_KM",
@@ -269,7 +259,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 2442,
+      "steps": 10911,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -289,78 +279,78 @@
     "rhr_baseline_28d": 62.6,
     "latest_hrv": 37.0,
     "latest_rhr": 57,
-    "acwr": 0.95,
+    "acwr": 1.13,
     "acwr_interpretation": "optimal",
-    "monotony": 0.5,
+    "monotony": 0.64,
     "monotony_interpretation": "normal",
     "primary_sport": "run",
-    "primary_sport_monotony": null,
-    "primary_sport_tss_7d": 107.0,
-    "effective_monotony": 0.5,
+    "primary_sport_monotony": 0.64,
+    "primary_sport_tss_7d": 135.0,
+    "effective_monotony": 0.64,
     "multi_sport_detected": false,
-    "strain": 54.0,
-    "stress_tolerance": 1.1,
-    "load_recovery_ratio": 0.9,
-    "tss_7d_total": 107.0,
-    "tss_28d_total": 450.0,
+    "strain": 86.0,
+    "stress_tolerance": 1.3,
+    "load_recovery_ratio": 1.2,
+    "tss_7d_total": 135.0,
+    "tss_28d_total": 478.0,
     "zone_distribution_7d": {
-      "z1_hours": 0.22,
+      "z1_hours": 0.84,
       "z2_hours": 0.22,
       "z3_hours": 0.08,
       "z4_plus_hours": 0.84,
-      "total_hours": 1.37,
+      "total_hours": 1.98,
       "zone_basis": "hr"
     },
-    "grey_zone_percentage": 6.2,
+    "grey_zone_percentage": 4.3,
     "grey_zone_note": "Gray Zone % (Z3/tempo) - minimize in polarized training",
-    "quality_intensity_percentage": 61.6,
+    "quality_intensity_percentage": 42.5,
     "quality_intensity_note": "Quality Intensity % (Z4+/threshold+) - target ~20% in polarized training",
-    "easy_time_ratio": 0.32,
+    "easy_time_ratio": 0.53,
     "easy_time_ratio_note": "Easy time (Z1+Z2) / Total - target ~80% in polarized training",
     "hard_days_this_week": 0,
     "hard_days_note": "Power ladder: z3+ >= 30min, z4+ >= 10min, z5+ >= 5min, z6+ >= 2min, z7 >= 1min. HR fallback (when no power): z4+ >= 10min, z5+ >= 5min. Per Seiler 3-zone model + Foster. HR-based days flagged with intensity_basis: hr",
     "seiler_tid_7d": {
-      "z1_seconds": 1581,
+      "z1_seconds": 3795,
       "z2_seconds": 305,
       "z3_seconds": 3030,
-      "z1_pct": 32.2,
-      "z2_pct": 6.2,
-      "z3_pct": 61.6,
-      "polarization_index": null,
-      "classification": "High Intensity",
+      "z1_pct": 53.2,
+      "z2_pct": 4.3,
+      "z3_pct": 42.5,
+      "polarization_index": 2.72,
+      "classification": "Polarized",
       "zone_basis": "hr"
     },
     "seiler_tid_7d_primary": {
-      "z1_seconds": 1581,
+      "z1_seconds": 3795,
       "z2_seconds": 305,
       "z3_seconds": 3030,
-      "z1_pct": 32.2,
-      "z2_pct": 6.2,
-      "z3_pct": 61.6,
-      "polarization_index": null,
-      "classification": "High Intensity",
+      "z1_pct": 53.2,
+      "z2_pct": 4.3,
+      "z3_pct": 42.5,
+      "polarization_index": 2.72,
+      "classification": "Polarized",
       "zone_basis": "hr",
       "sport": "run"
     },
     "seiler_tid_28d": {
-      "z1_seconds": 15614,
+      "z1_seconds": 17828,
       "z2_seconds": 2083,
       "z3_seconds": 7186,
-      "z1_pct": 62.7,
-      "z2_pct": 8.4,
-      "z3_pct": 28.9,
-      "polarization_index": 2.34,
+      "z1_pct": 65.8,
+      "z2_pct": 7.7,
+      "z3_pct": 26.5,
+      "polarization_index": 2.36,
       "classification": "Polarized",
       "zone_basis": "hr"
     },
     "seiler_tid_28d_primary": {
-      "z1_seconds": 15614,
+      "z1_seconds": 17828,
       "z2_seconds": 2083,
       "z3_seconds": 7186,
-      "z1_pct": 62.7,
-      "z2_pct": 8.4,
-      "z3_pct": 28.9,
-      "polarization_index": 2.34,
+      "z1_pct": 65.8,
+      "z2_pct": 7.7,
+      "z3_pct": 26.5,
+      "polarization_index": 2.36,
       "classification": "Polarized",
       "zone_basis": "hr",
       "sport": "run"
@@ -395,12 +385,12 @@
         "note": "HRRc = heart rate recovery (largest 60s HR drop in bpm after exceeding threshold HR for >1 min). Higher = better parasympathetic recovery. Null when threshold not reached, recording stopped before cooldown, or no HR data. Trend: 7d mean vs 28d mean, >10% = meaningful (min 1 session/7d, 3 sessions/28d). Display only \u2014 not wired into readiness_decision signals."
       },
       "tid_comparison": {
-        "classification_7d": "High Intensity",
+        "classification_7d": "Polarized",
         "classification_28d": "Polarized",
-        "pi_7d": null,
-        "pi_28d": 2.34,
-        "pi_delta": null,
-        "drift": "shifting",
+        "pi_7d": 2.72,
+        "pi_28d": 2.36,
+        "pi_delta": 0.36,
+        "drift": "consistent",
         "note": "Compares 7d vs 28d Seiler TID to detect distribution shifts. pi_delta positive = more polarized acutely."
       },
       "power_curve_delta": {
@@ -464,12 +454,11 @@
     },
     "consistency_index": 0.0,
     "consistency_details": {
-      "planned_days": 3,
+      "planned_days": 2,
       "completed_days": 0,
       "matched_days": 0,
       "planned_dates": [
         "2026-05-30",
-        "2026-05-31",
         "2026-06-03"
       ],
       "completed_dates": []
@@ -486,14 +475,14 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.43,
+          "planned_tss_delta": 1.56,
           "hard_sessions_planned": 0,
           "current_week_hard_days_completed": 0,
           "current_week_hard_days_total": 0,
           "race_proximity": null,
-          "next_week_load": 1.83,
-          "plan_coverage_current_week": 1.33,
-          "plan_coverage_next_week": 1.67
+          "next_week_load": 1.75,
+          "plan_coverage_current_week": 1.67,
+          "plan_coverage_next_week": 2.0
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -526,13 +515,13 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-03T15:12:55.013539",
+    "calculation_timestamp": "2026-06-03T18:58:39.362130",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
-      "activities_7d": 3,
-      "activities_28d": 10,
-      "planned_workouts_7d": 4,
+      "activities_7d": 4,
+      "activities_28d": 11,
+      "planned_workouts_7d": 3,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -540,6 +529,111 @@
     }
   },
   "recent_activities": [
+    {
+      "id": "i154028131",
+      "date": "2026-06-03T16:50:01",
+      "type": "Run",
+      "name": "Recovery Run",
+      "duration_hours": 0.61,
+      "distance_km": 5.0,
+      "tss": 28,
+      "intensity_factor": 67.50527,
+      "avg_power": null,
+      "normalized_power": null,
+      "avg_hr": 138,
+      "max_hr": 148,
+      "avg_cadence": 76.683426,
+      "avg_speed": 8.1,
+      "avg_speed_unit": "KPH",
+      "max_speed": 8.8,
+      "max_speed_unit": "KPH",
+      "avg_pace": null,
+      "avg_temp": 27.0,
+      "avg_temp_unit": "C",
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "wind_speed_unit": "KMH",
+      "work_kj": null,
+      "calories": 429,
+      "carbs_used": null,
+      "carbs_ingested": null,
+      "variability_index": null,
+      "decoupling": null,
+      "efficiency_factor": null,
+      "hrrc": null,
+      "elevation_m": 19.65131,
+      "display": {
+        "distance": {
+          "value": 5.0,
+          "unit": "km"
+        },
+        "elevation": {
+          "value": 20,
+          "unit": "m"
+        },
+        "avg_speed": {
+          "value": 8.1,
+          "unit": "km/h"
+        },
+        "max_speed": {
+          "value": 8.8,
+          "unit": "km/h"
+        }
+      },
+      "feel": null,
+      "rpe": null,
+      "effort_response": null,
+      "zone_distribution": {
+        "hr_zones": {
+          "z1_time": 2214,
+          "z2_time": 0,
+          "z3_time": 0,
+          "z4_time": 0,
+          "z5_time": 0,
+          "z6_time": 0,
+          "z7_time": 0
+        }
+      },
+      "has_intervals": true,
+      "has_dfa": false,
+      "terrain_summary": {
+        "source": "activity_streams",
+        "total_distance_km": 5.0,
+        "total_elevation_m": 18,
+        "elevation_per_km": 3.6,
+        "course_character": "flat",
+        "max_grade_pct": 2.2,
+        "grade_distribution": {
+          "flat_pct": 92.6,
+          "gentle_pct": 7.4,
+          "moderate_pct": 0.0,
+          "steep_pct": 0.0
+        },
+        "start_coords": [
+          51.4938,
+          5.64844
+        ],
+        "climbs": [],
+        "descents": [],
+        "display": {
+          "total_distance": {
+            "value": 5.0,
+            "unit": "km"
+          },
+          "total_elevation": {
+            "value": 18,
+            "unit": "m"
+          },
+          "elevation_per_distance": {
+            "value": 4,
+            "unit": "m/km"
+          }
+        }
+      },
+      "weather_status": "unavailable",
+      "description": "-5km hr<155bpm"
+    },
     {
       "id": "i152934505",
       "date": "2026-05-31T14:02:07",
@@ -1873,7 +1967,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 2442,
+      "steps": 10911,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1904,12 +1998,25 @@
       "name": "Easy run",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 41,
+      "planned_tss": 36,
       "duration_hours": 0.6,
       "duration_formatted": "36m5s",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "-6km Z2 Pace"
+      "description": "-6km Z2 HR"
+    },
+    {
+      "id": 114044592,
+      "date": "2026-06-05",
+      "name": "Easy run",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 30,
+      "duration_hours": 0.5,
+      "duration_formatted": "30m4s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "-5km Z2 HR"
     },
     {
       "id": 95749977,
@@ -1927,15 +2034,15 @@
     {
       "id": 95751441,
       "date": "2026-06-07",
-      "name": "Easy run",
+      "name": "Recovery run",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 27,
+      "planned_tss": 15,
       "duration_hours": 0.4,
       "duration_formatted": "24m3s",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "-4km Z2 Pace"
+      "description": "-4km Z1 HR"
     },
     {
       "id": 97393529,
@@ -1956,12 +2063,12 @@
       "name": "Easy run",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 34,
-      "duration_hours": 0.5,
-      "duration_formatted": "30m4s",
+      "planned_tss": 41,
+      "duration_hours": 0.6,
+      "duration_formatted": "36m5s",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "-5km Z2 Pace"
+      "description": "-6km Z2 Pace"
     },
     {
       "id": 101261732,
@@ -1969,11 +2076,25 @@
       "name": "Easy run",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 53,
-      "duration_hours": 0.79,
-      "duration_formatted": "47m25s",
-      "workout_summary": "42m5s | 4\u00d720s / 1m rec",
-      "has_terrain": false
+      "planned_tss": 34,
+      "duration_hours": 0.5,
+      "duration_formatted": "30m4s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "-5km Z2 Pace"
+    },
+    {
+      "id": 114044977,
+      "date": "2026-06-12",
+      "name": "OPTIONAL Recovery run",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 15,
+      "duration_hours": 0.4,
+      "duration_formatted": "24m3s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "-4km Z1 HR"
     },
     {
       "id": 101261758,
@@ -1981,12 +2102,12 @@
       "name": "L-Sessie",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 82,
-      "duration_hours": 1.2,
-      "duration_formatted": "1h12m9s",
+      "planned_tss": 68,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h8s",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "-12km Z2 Pace"
+      "description_preview": "-10km Z2 Pace"
     },
     {
       "id": 95751558,
@@ -2002,15 +2123,15 @@
       "description_preview": "-4km Z2 Pace"
     },
     {
-      "id": 95751554,
+      "id": 114045086,
       "date": "2026-06-16",
-      "name": "T-Sessie",
+      "name": "I-Sessie",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 46,
-      "duration_hours": 0.65,
-      "duration_formatted": "38m45s",
-      "workout_summary": "10m | 3\u00d715s / 1m rec | 20m | 5m",
+      "planned_tss": 38,
+      "duration_hours": 0.55,
+      "duration_formatted": "33m",
+      "workout_summary": "10m | 4\u00d73m / 2m rec | 3m",
       "has_terrain": false
     },
     {
@@ -2019,25 +2140,24 @@
       "name": "Easy run",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 68,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h8s",
+      "planned_tss": 41,
+      "duration_hours": 0.6,
+      "duration_formatted": "36m5s",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "-10km Z2 Pace"
+      "description_preview": "-6km Z2 Pace"
     },
     {
-      "id": 95751676,
+      "id": 114045326,
       "date": "2026-06-18",
-      "name": "R-sessie",
+      "name": "T-Sessie",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 46,
-      "duration_hours": 0.7,
-      "duration_formatted": "42m15s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": "Warmup\n-10m Z1 Pace\n3x"
+      "planned_tss": 45,
+      "duration_hours": 0.63,
+      "duration_formatted": "38m",
+      "workout_summary": "10m | 3\u00d715s / 45s rec | 20m | 5m",
+      "has_terrain": false
     },
     {
       "id": 95751712,
@@ -2045,12 +2165,12 @@
       "name": "Easy run",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 55,
-      "duration_hours": 0.8,
-      "duration_formatted": "48m6s",
+      "planned_tss": 30,
+      "duration_hours": 0.5,
+      "duration_formatted": "30m4s",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "-8km Z2 Pace"
+      "description_preview": "-5km Z2 HR"
     },
     {
       "id": 95751677,
@@ -2058,12 +2178,12 @@
       "name": "L-Sessie",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 113,
-      "duration_hours": 1.65,
-      "duration_formatted": "1h39m13s",
+      "planned_tss": 73,
+      "duration_hours": 1.2,
+      "duration_formatted": "1h12m9s",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "-16.5km Z2 Pace"
+      "description_preview": "-12km Z2 HR"
     },
     {
       "id": 95751679,
@@ -2071,183 +2191,58 @@
       "name": "Easy run",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 62,
-      "duration_hours": 0.9,
-      "duration_formatted": "54m7s",
+      "planned_tss": 30,
+      "duration_hours": 0.5,
+      "duration_formatted": "30m4s",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "-9km Z2 Pace"
+      "description_preview": "-5km Z2 HR"
     },
     {
-      "id": 95751906,
+      "id": 114046218,
       "date": "2026-06-23",
-      "name": "T-Sessie",
+      "name": "Easy run",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 46,
-      "duration_hours": 0.65,
-      "duration_formatted": "38m45s",
-      "workout_summary": "10m | 3\u00d715s / 1m rec | 20m | 5m",
-      "has_terrain": false
+      "planned_tss": 41,
+      "duration_hours": 0.6,
+      "duration_formatted": "36m5s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "-6km Z2 Pace"
     },
     {
-      "id": 95751908,
+      "id": 114046231,
       "date": "2026-06-24",
       "name": "Easy run",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 68,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h8s",
+      "planned_tss": 30,
+      "duration_hours": 0.5,
+      "duration_formatted": "30m4s",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "-10km Z2 Pace"
+      "description_preview": "-5km Z2 HR"
     },
     {
-      "id": 95751910,
+      "id": 114046233,
       "date": "2026-06-25",
-      "name": "I-Sessie",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 52,
-      "duration_hours": 0.75,
-      "duration_formatted": "45m",
-      "workout_summary": "10m | 4\u00d715s / 1m rec | 5\u00d73m / 2m rec | 5m",
-      "has_terrain": false
-    },
-    {
-      "id": 95751971,
-      "date": "2026-06-26",
       "name": "Easy run",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 55,
-      "duration_hours": 0.8,
-      "duration_formatted": "48m6s",
+      "planned_tss": 30,
+      "duration_hours": 0.5,
+      "duration_formatted": "30m4s",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "-8km Z2 Pace"
+      "description_preview": "-5km Z2 HR"
     },
     {
-      "id": 95751911,
+      "id": 114046234,
       "date": "2026-06-27",
-      "name": "M-Run",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 117,
-      "duration_hours": 1.5,
-      "duration_formatted": "1h30m2s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": "-15m Z1 - Z2 Pace\n-11km Z3 Pace\n-15m Z2 Pace"
-    },
-    {
-      "id": 95751912,
-      "date": "2026-06-28",
-      "name": "Easy run",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 48,
-      "duration_hours": 0.7,
-      "duration_formatted": "42m5s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": "-7km Z2 Pace"
-    },
-    {
-      "id": 95752034,
-      "date": "2026-06-30",
-      "name": "T-sessie",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 46,
-      "duration_hours": 0.65,
-      "duration_formatted": "38m45s",
-      "workout_summary": "10m | 3\u00d715s / 1m rec | 20m | 5m",
-      "has_terrain": false
-    },
-    {
-      "id": 95752035,
-      "date": "2026-07-01",
-      "name": "Easy run",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 68,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h8s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": "-10km Z2 Pace"
-    },
-    {
-      "id": 95752036,
-      "date": "2026-07-02",
-      "name": "R-sessie",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 46,
-      "duration_hours": 0.7,
-      "duration_formatted": "42m18s",
-      "workout_summary": "10m | 6\u00d71m42s / 2m51s rec | 5m",
-      "has_terrain": false
-    },
-    {
-      "id": 95752841,
-      "date": "2026-07-03",
-      "name": "Easy run",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 68,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h8s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": "-10km Z2 Pace"
-    },
-    {
-      "id": 95752037,
-      "date": "2026-07-04",
       "name": "L-Sessie",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 130,
-      "duration_hours": 1.9,
-      "duration_formatted": "1h54m15s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": "-19km Z2 Pace"
-    },
-    {
-      "id": 95752038,
-      "date": "2026-07-05",
-      "name": "Easy run",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 75,
-      "duration_hours": 1.1,
-      "duration_formatted": "1h6m9s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": "-11km Z2 Pace"
-    },
-    {
-      "id": 95759691,
-      "date": "2026-07-07",
-      "name": "T-Sessie",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 46,
-      "duration_hours": 0.65,
-      "duration_formatted": "38m45s",
-      "workout_summary": "10m | 3\u00d715s / 1m rec | 20m | 5m",
-      "has_terrain": false
-    },
-    {
-      "id": 95759692,
-      "date": "2026-07-08",
-      "name": "Easy run",
-      "type": "WORKOUT",
-      "sport_type": "Run",
       "planned_tss": 68,
       "duration_hours": 1.0,
       "duration_formatted": "1h8s",
@@ -2256,95 +2251,32 @@
       "description_preview": "-10km Z2 Pace"
     },
     {
-      "id": 95759693,
-      "date": "2026-07-09",
-      "name": "I-Sessie",
+      "id": 114046237,
+      "date": "2026-06-28",
+      "name": "Recovery run",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 55,
-      "duration_hours": 0.8,
-      "duration_formatted": "48m",
-      "workout_summary": "10m | 4\u00d715s / 1m rec | 4\u00d74m / 3m rec | 5m",
-      "has_terrain": false
-    },
-    {
-      "id": 95759701,
-      "date": "2026-07-10",
-      "name": "Easy run",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 62,
-      "duration_hours": 0.9,
-      "duration_formatted": "54m7s",
+      "planned_tss": 15,
+      "duration_hours": 0.4,
+      "duration_formatted": "24m3s",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "-9km Z2 Pace"
-    },
-    {
-      "id": 95759694,
-      "date": "2026-07-11",
-      "name": "M-Run",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 151,
-      "duration_hours": 1.98,
-      "duration_formatted": "1h58m46s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": "-35m Z2 Pace\n-12.6km Z3 Pace\n-15m Z2 Pace"
-    },
-    {
-      "id": 95759695,
-      "date": "2026-07-12",
-      "name": "Easy run",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 62,
-      "duration_hours": 0.9,
-      "duration_formatted": "54m7s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": "-9km Z2 Pace"
-    },
-    {
-      "id": 95760348,
-      "date": "2026-07-14",
-      "name": "T-sessie",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 46,
-      "duration_hours": 0.65,
-      "duration_formatted": "38m45s",
-      "workout_summary": "10m | 3\u00d715s / 1m rec | 20m | 5m",
-      "has_terrain": false
-    },
-    {
-      "id": 95760349,
-      "date": "2026-07-15",
-      "name": "Easy run",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 68,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h8s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": "-10km Z2 Pace"
+      "description_preview": "-4km Z1 HR"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 35,
-    "success": 10,
-    "patternA": 10,
+    "attempted": 22,
+    "success": 3,
+    "patternA": 3,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 25
+    "bail_no_match": 19
   },
   "weekly_summary": {
-    "total_training_hours": 1.36,
-    "total_training_formatted": "1h21m",
-    "total_tss": 107,
-    "activities_count": 3,
+    "total_training_hours": 1.98,
+    "total_training_formatted": "1h58m",
+    "total_tss": 135,
+    "activities_count": 4,
     "avg_hrv": 34.9,
     "avg_resting_hr": 60.7
   },
