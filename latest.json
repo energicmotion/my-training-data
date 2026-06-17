@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-17T18:00:50.500037",
+    "last_updated": "2026-06-17T20:28:45.232889",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -523,7 +523,7 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-17T18:00:50.499153",
+    "calculation_timestamp": "2026-06-17T20:28:45.231974",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -541,7 +541,7 @@
       "id": "i158146282",
       "date": "2026-06-17T19:00:37",
       "type": "Run",
-      "name": "Avondloop",
+      "name": "Mispelhoef fun run",
       "duration_hours": 0.82,
       "distance_km": 7.92,
       "tss": 49,
