@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T19:14:48.682831",
+  "generated_at": "2026-06-26T21:00:33.859715",
   "version": "3.112",
   "script_hash": "f6d3f912d372",
   "scan_hours": 72,
@@ -254,6 +254,26 @@
           "max_hr": 190,
           "avg_cadence": 79.1579,
           "zone": 3
+        }
+      ]
+    },
+    {
+      "activity_id": "i160592156",
+      "date": "2026-06-26",
+      "type": "Swim",
+      "name": "Nachtzwemsessie",
+      "interval_summary": [
+        "1x 60m 110bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "90s@110bpm21rpm",
+          "duration_secs": 90,
+          "avg_hr": 110,
+          "max_hr": 119,
+          "avg_cadence": 21.47191,
+          "zone": 1
         }
       ]
     }
