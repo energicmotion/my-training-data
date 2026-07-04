@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-04T07:55:41.039025",
+    "last_updated": "2026-07-04T09:30:28.839790",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -265,7 +265,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 19111,
+      "steps": 19223,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -503,7 +503,7 @@
           "current_week_hard_days_completed": 1,
           "current_week_hard_days_total": 1,
           "race_proximity": null,
-          "next_week_load": 2.77,
+          "next_week_load": 2.92,
           "plan_coverage_current_week": 1.0,
           "plan_coverage_next_week": 3.0
         },
@@ -538,7 +538,7 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-04T07:55:41.038068",
+    "calculation_timestamp": "2026-07-04T09:30:28.838859",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -2167,7 +2167,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 19111,
+      "steps": 19223,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -2263,12 +2263,12 @@
       "name": "L-Sessie",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 80,
-      "duration_hours": 1.37,
-      "duration_formatted": "1h21m55s",
+      "planned_tss": 95,
+      "duration_hours": 1.66,
+      "duration_formatted": "1h39m28s",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "-14km Z2 HR"
+      "description": "-2km z1 HR\n-15km Z2 HR"
     },
     {
       "id": 119362267,
