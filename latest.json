@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-07T20:21:56.201286",
+    "last_updated": "2026-07-07T21:50:28.684749",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -538,7 +538,7 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-07T20:21:56.200142",
+    "calculation_timestamp": "2026-07-07T21:50:28.683810",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -556,7 +556,7 @@
       "id": "i163578265",
       "date": "2026-07-07T16:50:03",
       "type": "Run",
-      "name": "Afternoon Run",
+      "name": "Threshold Run",
       "duration_hours": 0.75,
       "distance_km": 7.84,
       "tss": 53,
@@ -655,7 +655,7 @@
         }
       },
       "weather_status": "unavailable",
-      "description": "108 Training Load\n-- from COROS"
+      "description": "~10min w-up\n\n2x\n-12min z4 2m rst"
     },
     {
       "id": "i162558890",
