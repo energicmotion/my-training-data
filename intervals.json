@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T15:53:34.711462",
+  "generated_at": "2026-07-08T15:58:37.490996",
   "version": "3.112",
   "script_hash": "f6d3f912d372",
   "scan_hours": 72,
@@ -601,6 +601,34 @@
           "avg_hr": 148,
           "max_hr": 149,
           "avg_cadence": 77.0,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i163908746",
+      "date": "2026-07-08",
+      "type": "Run",
+      "name": "Easy run",
+      "interval_summary": [
+        "1x 24m2s 6:01"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "1442s@147bpm75rpm",
+          "duration_secs": 1442,
+          "avg_hr": 147,
+          "max_hr": 159,
+          "avg_cadence": 75.46342,
+          "zone": 2
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 4,
+          "avg_hr": 156,
+          "max_hr": 156,
+          "avg_cadence": 79.0,
           "zone": 1
         }
       ]
