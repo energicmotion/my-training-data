@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-08T18:52:48.660940",
+    "last_updated": "2026-07-08T20:16:38.757133",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -265,7 +265,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 11090,
+      "steps": 12997,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -498,13 +498,13 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 2.7,
+          "planned_tss_delta": 1.47,
           "hard_sessions_planned": 1,
           "current_week_hard_days_completed": 1,
           "current_week_hard_days_total": 2,
           "race_proximity": null,
-          "next_week_load": 2.82,
-          "plan_coverage_current_week": 1.67,
+          "next_week_load": 2.91,
+          "plan_coverage_current_week": 1.33,
           "plan_coverage_next_week": 2.0
         },
         "data_quality": "good",
@@ -538,7 +538,7 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-08T18:52:48.659985",
+    "calculation_timestamp": "2026-07-08T20:16:38.756191",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -2167,7 +2167,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 11090,
+      "steps": 12997,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -2217,19 +2217,6 @@
       "workout_summary": null,
       "has_terrain": false,
       "description": "-5km Z2 HR"
-    },
-    {
-      "id": 119362242,
-      "date": "2026-07-11",
-      "name": "L-Sessie",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 95,
-      "duration_hours": 1.66,
-      "duration_formatted": "1h39m28s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": "-2km z1 HR\n-15km Z2 HR"
     },
     {
       "id": 119362267,
@@ -2301,12 +2288,12 @@
       "name": "L-Sessie",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 91,
-      "duration_hours": 1.56,
-      "duration_formatted": "1h33m37s",
+      "planned_tss": 100,
+      "duration_hours": 1.66,
+      "duration_formatted": "1h39m29s",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "-16km Z2 HR"
+      "description_preview": "-17km Z2 HR"
     },
     {
       "id": 119365502,
@@ -2399,12 +2386,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 17,
+    "attempted": 16,
     "success": 5,
     "patternA": 5,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 12
+    "bail_no_match": 11
   },
   "weekly_summary": {
     "total_training_hours": 4.12,
