@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T13:36:37.813149",
+  "generated_at": "2026-08-28T23:11:38.676680",
   "version": "3.112",
   "script_hash": "f6d3f912d372",
   "scan_hours": 72,
@@ -29,6 +29,34 @@
           "avg_hr": 160,
           "max_hr": 161,
           "avg_cadence": 79.0,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i180740167",
+      "date": "2026-08-28",
+      "type": "Run",
+      "name": "Recovery Run",
+      "interval_summary": [
+        "1x 24m4s 8:01"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "1444s@143bpm75rpm",
+          "duration_secs": 1444,
+          "avg_hr": 143,
+          "max_hr": 152,
+          "avg_cadence": 75.46127,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 3,
+          "avg_hr": 149,
+          "max_hr": 149,
+          "avg_cadence": 76.0,
           "zone": 1
         }
       ]
