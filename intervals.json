@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T07:15:22.322113",
+  "generated_at": "2026-09-12T11:40:19.669156",
   "version": "3.112",
   "script_hash": "f6d3f912d372",
   "scan_hours": 72,
@@ -514,6 +514,44 @@
           "max_hr": 158,
           "avg_cadence": 77.0,
           "zone": 2
+        }
+      ]
+    },
+    {
+      "activity_id": "i185813038",
+      "date": "2026-09-12",
+      "type": "Run",
+      "name": "Ochtendloop",
+      "interval_summary": [
+        "1x 14m20s 7:10",
+        "1x 59m1s 6:21"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "860s@144bpm79rpm",
+          "duration_secs": 860,
+          "avg_hr": 144,
+          "max_hr": 153,
+          "avg_cadence": 78.606346,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "3541s@152bpm78rpm",
+          "duration_secs": 3541,
+          "avg_hr": 152,
+          "max_hr": 163,
+          "avg_cadence": 77.77928,
+          "zone": 2
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 3,
+          "avg_hr": 148,
+          "max_hr": 149,
+          "avg_cadence": 80.0,
+          "zone": 1
         }
       ]
     }
