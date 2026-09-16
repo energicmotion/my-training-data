@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T15:05:53.871023",
+  "generated_at": "2026-09-16T16:28:14.427614",
   "version": "3.112",
   "script_hash": "f6d3f912d372",
   "scan_hours": 72,
@@ -515,6 +515,44 @@
           "avg_hr": 144,
           "max_hr": 146,
           "avg_cadence": 82.28571,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i187361870",
+      "date": "2026-09-16",
+      "type": "Run",
+      "name": "Namiddagloop",
+      "interval_summary": [
+        "1x 37m18s 6:13",
+        "1x 61s 6:22"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "2238s@150bpm78rpm",
+          "duration_secs": 2238,
+          "avg_hr": 150,
+          "max_hr": 163,
+          "avg_cadence": 77.69448,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "61s@151bpm78rpm",
+          "duration_secs": 61,
+          "avg_hr": 151,
+          "max_hr": 157,
+          "avg_cadence": 77.81967,
+          "zone": 2
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2,
+          "avg_hr": 150,
+          "max_hr": 151,
+          "avg_cadence": 77.5,
           "zone": 1
         }
       ]
