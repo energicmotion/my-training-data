@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-09-26T08:51:48.574510",
+    "last_updated": "2026-09-26T11:58:56.676866",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -281,7 +281,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 12366,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -505,9 +505,9 @@
           "current_week_hard_days_completed": 0,
           "current_week_hard_days_total": 0,
           "race_proximity": 15,
-          "next_week_load": null,
+          "next_week_load": 1.79,
           "plan_coverage_current_week": 0.5,
-          "plan_coverage_next_week": 0.0
+          "plan_coverage_next_week": 1.25
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -540,7 +540,7 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-09-26T08:51:48.573797",
+    "calculation_timestamp": "2026-09-26T11:58:56.676154",
     "data_quality": {
       "hrv_data_points": 1,
       "rhr_data_points": 1,
@@ -558,7 +558,7 @@
       "id": "i190472091",
       "date": "2026-09-26T09:32:13",
       "type": "Run",
-      "name": "Morning Run",
+      "name": "Long Run",
       "duration_hours": 1.21,
       "distance_km": 13.01,
       "tss": 97,
@@ -657,7 +657,7 @@
         }
       },
       "weather_status": "unavailable",
-      "description": "167 Training Load\n-- from COROS"
+      "description": "-10km z2\n-3km z3"
     },
     {
       "id": "20310767798",
@@ -2459,7 +2459,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 12366,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -2498,6 +2498,71 @@
       "description": "-3km Z1 HR"
     },
     {
+      "id": 138886852,
+      "date": "2026-09-29",
+      "name": "Threshold",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 81,
+      "duration_hours": 1.21,
+      "duration_formatted": "1h12m52s",
+      "workout_summary": "14m26s | 4\u00d78m / 3m rec | 14m26s",
+      "has_terrain": false,
+      "description": "W-up\n-2km z1 pace\n\n4x\n-8m z4 pace\n-3m z1 pace\n\nCooldown\n-2km z1 pace"
+    },
+    {
+      "id": 138887248,
+      "date": "2026-09-30",
+      "name": "Easy",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 37,
+      "duration_hours": 0.61,
+      "duration_formatted": "36m34s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "-6km z2 Hr"
+    },
+    {
+      "id": 138887812,
+      "date": "2026-10-01",
+      "name": "Interval",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 65,
+      "duration_hours": 0.98,
+      "duration_formatted": "58m52s",
+      "workout_summary": "14m26s | 6\u00d73m / 2m rec | 14m26s",
+      "has_terrain": false,
+      "description": "W-up\n-2km Z1 pace\n\n6x\n-3m z6 pace\n-2m z1 pace\n\nCooldown\n-2km z1 pace"
+    },
+    {
+      "id": 138888241,
+      "date": "2026-10-02",
+      "name": "Easy",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 37,
+      "duration_hours": 0.61,
+      "duration_formatted": "36m34s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "-6km z2 hr"
+    },
+    {
+      "id": 138888480,
+      "date": "2026-10-03",
+      "name": "Long",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 102,
+      "duration_hours": 1.62,
+      "duration_formatted": "1h37m30s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "-13km z2 hr\n-3km z3 hr"
+    },
+    {
       "id": 96782355,
       "date": "2026-10-11",
       "name": "Kwart marathon Eindhoven relay",
@@ -2525,12 +2590,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 2,
-    "success": 0,
-    "patternA": 0,
+    "attempted": 7,
+    "success": 2,
+    "patternA": 2,
     "patternB": 0,
     "bail_no_workout_doc": 1,
-    "bail_no_match": 2
+    "bail_no_match": 5
   },
   "weekly_summary": {
     "total_training_hours": 1.21,
