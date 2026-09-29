@@ -65,12 +65,12 @@
       "total_training_hours": 2.42,
       "total_training_formatted": "2h25m",
       "total_activities": 4,
-      "total_tss": 181
+      "total_tss": 180
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-09-29T12:46:59.116208",
+    "last_updated": "2026-09-29T17:00:41.093061",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -133,7 +133,7 @@
       },
       "tsb": {
         "status": "amber",
-        "value": -16.1
+        "value": -16.0
       }
     },
     "signal_summary": {
@@ -178,7 +178,7 @@
       "Run": {
         "duration_decimal_hours": 2.42,
         "count": 2,
-        "tss": 181,
+        "tss": 180,
         "distance_km": 25.0,
         "display": {
           "distance": {
@@ -203,10 +203,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 19.59,
-      "atl": 35.71,
-      "tsb": -16.12,
-      "ramp_rate": 3.29,
+      "ctl": 19.56,
+      "atl": 35.58,
+      "tsb": -16.02,
+      "ramp_rate": 3.27,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -227,7 +227,7 @@
         "run": {
           "lthr": 182,
           "max_hr": 204,
-          "threshold_pace": 3.3112583,
+          "threshold_pace": 3.3222592,
           "pace_units": "MINS_KM",
           "ftp": null,
           "ftp_indoor": null
@@ -280,7 +280,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 11103,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -306,14 +306,14 @@
     "monotony_interpretation": "normal",
     "primary_sport": "run",
     "primary_sport_monotony": null,
-    "primary_sport_tss_7d": 181.0,
+    "primary_sport_tss_7d": 180.0,
     "effective_monotony": 0.58,
     "multi_sport_detected": false,
-    "strain": 105.0,
+    "strain": 104.0,
     "stress_tolerance": 1.8,
     "load_recovery_ratio": null,
-    "tss_7d_total": 181.0,
-    "tss_28d_total": 677.0,
+    "tss_7d_total": 180.0,
+    "tss_28d_total": 676.0,
     "zone_distribution_7d": {
       "z1_hours": 0.78,
       "z2_hours": 0.86,
@@ -543,7 +543,7 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-09-29T12:46:59.115491",
+    "calculation_timestamp": "2026-09-29T17:00:41.092424",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 0,
@@ -564,8 +564,8 @@
       "name": "Threshold Run",
       "duration_hours": 1.21,
       "distance_km": 11.94,
-      "tss": 84,
-      "intensity_factor": 83.39617,
+      "tss": 83,
+      "intensity_factor": 82.898285,
       "avg_power": null,
       "normalized_power": null,
       "avg_hr": 161,
@@ -2358,7 +2358,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 11103,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -2378,8 +2378,8 @@
       "sport_type": "Run",
       "planned_tss": 81,
       "duration_hours": 1.21,
-      "duration_formatted": "1h12m52s",
-      "workout_summary": "14m26s | 4\u00d78m / 3m rec | 14m26s",
+      "duration_formatted": "1h12m46s",
+      "workout_summary": "14m23s | 4\u00d78m / 3m rec | 14m23s",
       "has_terrain": false,
       "description": "W-up\n-2km z1 pace\n\n4x\n-8m z4 pace\n-3m z1 pace\n\nCooldown\n-2km z1 pace"
     },
@@ -2391,7 +2391,7 @@
       "sport_type": "Run",
       "planned_tss": 37,
       "duration_hours": 0.61,
-      "duration_formatted": "36m34s",
+      "duration_formatted": "36m26s",
       "workout_summary": null,
       "has_terrain": false,
       "description": "-6km z2 Hr"
@@ -2404,8 +2404,8 @@
       "sport_type": "Run",
       "planned_tss": 65,
       "duration_hours": 0.98,
-      "duration_formatted": "58m52s",
-      "workout_summary": "14m26s | 6\u00d73m / 2m rec | 14m26s",
+      "duration_formatted": "58m46s",
+      "workout_summary": "14m23s | 6\u00d73m / 2m rec | 14m23s",
       "has_terrain": false,
       "description": "W-up\n-2km Z1 pace\n\n6x\n-3m z6 pace\n-2m z1 pace\n\nCooldown\n-2km z1 pace"
     },
@@ -2417,7 +2417,7 @@
       "sport_type": "Run",
       "planned_tss": 37,
       "duration_hours": 0.61,
-      "duration_formatted": "36m34s",
+      "duration_formatted": "36m26s",
       "workout_summary": null,
       "has_terrain": false,
       "description": "-6km z2 hr"
@@ -2430,7 +2430,7 @@
       "sport_type": "Run",
       "planned_tss": 102,
       "duration_hours": 1.62,
-      "duration_formatted": "1h37m30s",
+      "duration_formatted": "1h37m10s",
       "workout_summary": null,
       "has_terrain": false,
       "description": "-13km z2 hr\n-3km z3 hr"
@@ -2473,7 +2473,7 @@
   "weekly_summary": {
     "total_training_hours": 2.42,
     "total_training_formatted": "2h25m",
-    "total_tss": 181,
+    "total_tss": 180,
     "activities_count": 4,
     "avg_hrv": null,
     "avg_resting_hr": null
