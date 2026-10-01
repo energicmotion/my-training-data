@@ -65,12 +65,12 @@
       "total_training_hours": 4.06,
       "total_training_formatted": "4h3m",
       "total_activities": 4,
-      "total_tss": 294
+      "total_tss": 284
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-01T13:31:39.047830",
+    "last_updated": "2026-10-01T13:54:46.761802",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -103,10 +103,10 @@
   "alerts": [
     {
       "metric": "acwr",
-      "value": 1.63,
+      "value": 1.6,
       "severity": "alarm",
       "threshold": "1.35",
-      "context": "ACWR 1.63 above safe range. Injury/overreach risk elevated.",
+      "context": "ACWR 1.6 above safe range. Injury/overreach risk elevated.",
       "persistence_days": null,
       "tier": 2
     }
@@ -134,7 +134,7 @@
       },
       "acwr": {
         "status": "red",
-        "value": 1.63
+        "value": 1.6
       },
       "ri": {
         "status": "green",
@@ -156,7 +156,7 @@
     },
     "race_week_defers": false,
     "modification": null,
-    "reason": "P1 acute overload. ACWR 1.63 >= 1.5.",
+    "reason": "P1 acute overload. ACWR 1.6 >= 1.5.",
     "alarm_refs": []
   },
   "history": {
@@ -175,7 +175,7 @@
       "Run": {
         "duration_decimal_hours": 4.06,
         "count": 4,
-        "tss": 294,
+        "tss": 284,
         "distance_km": 41.2,
         "display": {
           "distance": {
@@ -188,10 +188,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 21.31,
-      "atl": 41.15,
-      "tsb": -19.84,
-      "ramp_rate": 3.87,
+      "ctl": 21.08,
+      "atl": 39.82,
+      "tsb": -18.74,
+      "ramp_rate": 3.63,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -210,9 +210,9 @@
           "ftp_indoor": null
         },
         "run": {
-          "lthr": 182,
+          "lthr": 183,
           "max_hr": 204,
-          "threshold_pace": 3.3222592,
+          "threshold_pace": 3.5971222,
           "pace_units": "MINS_KM",
           "ftp": null,
           "ftp_indoor": null
@@ -265,7 +265,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 3039,
+      "steps": 12327,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -285,20 +285,20 @@
     "rhr_baseline_28d": 57.9,
     "latest_hrv": 35.0,
     "latest_rhr": 57,
-    "acwr": 1.63,
+    "acwr": 1.6,
     "acwr_interpretation": "danger",
-    "monotony": 0.99,
+    "monotony": 0.98,
     "monotony_interpretation": "normal",
     "primary_sport": "run",
-    "primary_sport_monotony": 0.99,
-    "primary_sport_tss_7d": 294.0,
-    "effective_monotony": 0.99,
+    "primary_sport_monotony": 0.98,
+    "primary_sport_tss_7d": 284.0,
+    "effective_monotony": 0.98,
     "multi_sport_detected": false,
-    "strain": 291.0,
-    "stress_tolerance": 2.9,
-    "load_recovery_ratio": 3.0,
-    "tss_7d_total": 294.0,
-    "tss_28d_total": 721.0,
+    "strain": 278.0,
+    "stress_tolerance": 2.8,
+    "load_recovery_ratio": 2.9,
+    "tss_7d_total": 284.0,
+    "tss_28d_total": 711.0,
     "zone_distribution_7d": {
       "z1_hours": 1.65,
       "z2_hours": 1.29,
@@ -486,7 +486,7 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 2.43,
+          "planned_tss_delta": 2.29,
           "hard_sessions_planned": 1,
           "current_week_hard_days_completed": 2,
           "current_week_hard_days_total": 3,
@@ -528,7 +528,7 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-01T13:31:39.046847",
+    "calculation_timestamp": "2026-10-01T13:54:46.760624",
     "data_quality": {
       "hrv_data_points": 2,
       "rhr_data_points": 2,
@@ -549,8 +549,8 @@
       "name": "Afternoon Run",
       "duration_hours": 0.96,
       "distance_km": 9.84,
-      "tss": 71,
-      "intensity_factor": 85.37143,
+      "tss": 61,
+      "intensity_factor": 79.131294,
       "avg_power": null,
       "normalized_power": null,
       "avg_hr": 160,
@@ -2342,7 +2342,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 3039,
+      "steps": 12327,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -2360,10 +2360,10 @@
       "name": "Interval",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 62,
-      "duration_hours": 0.98,
-      "duration_formatted": "58m46s",
-      "workout_summary": "14m23s | 6\u00d73m / 2m rec | 14m23s",
+      "planned_tss": 60,
+      "duration_hours": 0.94,
+      "duration_formatted": "56m34s",
+      "workout_summary": "13m17s | 6\u00d73m / 2m rec | 13m17s",
       "has_terrain": false,
       "description": "W-up\n-2km Z1 Pace\n\n6x\n-3m z5 Pace\n-2m z1 Pace\n\nCooldown\n-2km z1 Pace"
     },
@@ -2373,9 +2373,9 @@
       "name": "Easy",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 37,
-      "duration_hours": 0.61,
-      "duration_formatted": "36m26s",
+      "planned_tss": 34,
+      "duration_hours": 0.56,
+      "duration_formatted": "33m39s",
       "workout_summary": null,
       "has_terrain": false,
       "description": "-6km z2 hr"
@@ -2386,9 +2386,9 @@
       "name": "Long",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 125,
-      "duration_hours": 2.02,
-      "duration_formatted": "2h1m28s",
+      "planned_tss": 117,
+      "duration_hours": 1.87,
+      "duration_formatted": "1h52m12s",
       "workout_summary": null,
       "has_terrain": false,
       "description": "-17km z2 hr\n-3km z3 hr"
@@ -2431,7 +2431,7 @@
   "weekly_summary": {
     "total_training_hours": 4.06,
     "total_training_formatted": "4h3m",
-    "total_tss": 294,
+    "total_tss": 284,
     "activities_count": 4,
     "avg_hrv": 36.0,
     "avg_resting_hr": 58.0
