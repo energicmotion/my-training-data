@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-01T13:54:46.761802",
+    "last_updated": "2026-10-01T19:10:21.364428",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -528,7 +528,7 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-01T13:54:46.760624",
+    "calculation_timestamp": "2026-10-01T19:10:21.363731",
     "data_quality": {
       "hrv_data_points": 2,
       "rhr_data_points": 2,
@@ -546,7 +546,7 @@
       "id": "i192246343",
       "date": "2026-10-01T14:26:17",
       "type": "Run",
-      "name": "Afternoon Run",
+      "name": "Interval run",
       "duration_hours": 0.96,
       "distance_km": 9.84,
       "tss": 61,
@@ -644,7 +644,8 @@
           }
         }
       },
-      "weather_status": "unavailable"
+      "weather_status": "unavailable",
+      "description": "-2km w-up\n\n6x\n-3min ~4:00 min/km\n-2min rst\n\n-2km forever pace"
     },
     {
       "id": "i191993990",
