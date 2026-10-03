@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-03T13:20:49.554565",
+    "last_updated": "2026-10-03T17:28:23.347125",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -492,9 +492,9 @@
           "current_week_hard_days_completed": 2,
           "current_week_hard_days_total": 2,
           "race_proximity": 8,
-          "next_week_load": null,
+          "next_week_load": 0.6,
           "plan_coverage_current_week": 0.25,
-          "plan_coverage_next_week": 0.25
+          "plan_coverage_next_week": 1.25
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -529,7 +529,7 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-03T13:20:49.553800",
+    "calculation_timestamp": "2026-10-03T17:28:23.346433",
     "data_quality": {
       "hrv_data_points": 4,
       "rhr_data_points": 4,
@@ -2475,6 +2475,58 @@
       "description": "-17km z2 hr\n-3km z3 hr"
     },
     {
+      "id": 141104347,
+      "date": "2026-10-06",
+      "name": "Easy",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 34,
+      "duration_hours": 0.56,
+      "duration_formatted": "33m39s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "-6km z2 hr"
+    },
+    {
+      "id": 141104382,
+      "date": "2026-10-07",
+      "name": "Easy",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 34,
+      "duration_hours": 0.56,
+      "duration_formatted": "33m39s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "-6km z2 hr"
+    },
+    {
+      "id": 141104783,
+      "date": "2026-10-08",
+      "name": "Shake out",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 14,
+      "duration_hours": 0.37,
+      "duration_formatted": "22m26s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "-4km z1 hr"
+    },
+    {
+      "id": 141104676,
+      "date": "2026-10-10",
+      "name": "Recovery + strides",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 15,
+      "duration_hours": 0.35,
+      "duration_formatted": "20m50s",
+      "workout_summary": "16m50s | 4\u00d720s / 40s rec",
+      "has_terrain": false,
+      "description": "-3km z1 hr\n\n4x\n-20s z6 hr\n-40s z1 hr"
+    },
+    {
       "id": 96782355,
       "date": "2026-10-11",
       "name": "Kwart marathon Eindhoven relay",
@@ -2502,12 +2554,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 1,
-    "success": 0,
-    "patternA": 0,
+    "attempted": 5,
+    "success": 1,
+    "patternA": 1,
     "patternB": 0,
     "bail_no_workout_doc": 1,
-    "bail_no_match": 1
+    "bail_no_match": 4
   },
   "weekly_summary": {
     "total_training_hours": 5.34,
