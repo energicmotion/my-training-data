@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-09T00:32:43.842643",
+    "last_updated": "2026-10-09T06:41:32.077851",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -121,10 +121,10 @@
     },
     {
       "metric": "race_week_tsb",
-      "value": -0.8,
+      "value": 0.1,
       "severity": "warning",
       "threshold": "TSB target 5-15",
-      "context": "Projected race-day TSB -0.8 is below target range 5-15. Consider additional rest to reach target.",
+      "context": "Projected race-day TSB 0.1 is below target range 5-15. Consider additional rest to reach target.",
       "persistence_days": null,
       "tier": 1
     }
@@ -161,7 +161,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": -7.2
+        "value": -5.9
       }
     },
     "signal_summary": {
@@ -210,10 +210,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 22.62,
-      "atl": 29.82,
-      "tsb": -7.2,
-      "ramp_rate": 1.19,
+      "ctl": 22.3,
+      "atl": 28.21,
+      "tsb": -5.91,
+      "ramp_rate": 0.87,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -549,7 +549,7 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-09T00:32:43.842026",
+    "calculation_timestamp": "2026-10-09T06:41:32.077128",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
@@ -2496,18 +2496,18 @@
       "event_moving_time_seconds": null,
       "days_until_event": 2,
       "current_day": "D-2",
-      "ctl_baseline": 22.6,
-      "normal_weekly_tss": 158.3,
+      "ctl_baseline": 22.3,
+      "normal_weekly_tss": 156.1,
       "race_week_tss_budget": {
-        "min": 79,
-        "max": 103
+        "min": 78,
+        "max": 101
       },
       "race_week_tss_spent": 71,
       "race_week_tss_remaining": {
-        "min": 8,
-        "max": 32
+        "min": 7,
+        "max": 30
       },
-      "projected_race_day_tsb": -0.8,
+      "projected_race_day_tsb": 0.1,
       "tsb_target_range": {
         "min": 5,
         "max": 15
@@ -2536,7 +2536,7 @@
       "go_no_go": {
         "tsb_status": "flag",
         "notes": [
-          "Projected race-day TSB -0.8 is below target range 5-15. Consider additional rest."
+          "Projected race-day TSB 0.1 is below target range 5-15. Consider additional rest."
         ]
       }
     }
