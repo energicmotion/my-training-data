@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-11T01:09:02.634872",
+    "last_updated": "2026-10-11T07:08:48.211943",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -130,10 +130,10 @@
     },
     {
       "metric": "race_week_tsb",
-      "value": -1.3,
+      "value": 0.1,
       "severity": "warning",
       "threshold": "TSB target 5-15",
-      "context": "Projected race-day TSB -1.3 is below target range 5-15. Consider additional rest to reach target.",
+      "context": "Projected race-day TSB 0.1 is below target range 5-15. Consider additional rest to reach target.",
       "persistence_days": null,
       "tier": 1
     }
@@ -143,20 +143,20 @@
     "priority": 3,
     "signals": {
       "hrv": {
-        "status": "unavailable",
-        "value": null,
-        "baseline_7d": 41.8,
-        "delta_pct": null
+        "status": "green",
+        "value": 41.0,
+        "baseline_7d": 41.7,
+        "delta_pct": -1.7
       },
       "rhr": {
-        "status": "unavailable",
-        "value": null,
+        "status": "green",
+        "value": 57,
         "baseline_7d": 57,
-        "delta_bpm": null
+        "delta_bpm": 0
       },
       "sleep": {
-        "status": "unavailable",
-        "hours": null,
+        "status": "green",
+        "hours": 7.2,
         "quality": null
       },
       "acwr": {
@@ -164,20 +164,20 @@
         "value": 0.39
       },
       "ri": {
-        "status": "unavailable",
-        "value": null,
+        "status": "green",
+        "value": 0.98,
         "value_yesterday": 0.79
       },
       "tsb": {
         "status": "green",
-        "value": -1.3
+        "value": 0.1
       }
     },
     "signal_summary": {
-      "green": 2,
+      "green": 6,
       "amber": 0,
       "red": 0,
-      "unavailable": 4
+      "unavailable": 0
     },
     "phase_context": {
       "phase": "Taper",
@@ -187,7 +187,7 @@
     },
     "race_week_defers": false,
     "modification": null,
-    "reason": "P3 green light. 2 green, 0 amber (threshold 1), 0 red. Note: 4 signals unavailable \u2014 limited data.",
+    "reason": "P3 green light. 6 green, 0 amber (threshold 1), 0 red.",
     "alarm_refs": []
   },
   "history": {
@@ -219,10 +219,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 21.61,
-      "atl": 22.93,
-      "tsb": -1.32,
-      "ramp_rate": -1.74,
+      "ctl": 21.26,
+      "atl": 21.2,
+      "tsb": 0.06,
+      "ramp_rate": -2.09,
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
@@ -274,11 +274,11 @@
           "unit": "kg"
         }
       },
-      "resting_hr": 59,
-      "hrv": null,
+      "resting_hr": 57,
+      "hrv": 41.0,
       "sleep_quality": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
+      "sleep_hours": 7.2,
+      "sleep_formatted": "7h12m",
       "sleep_score": null,
       "fatigue": null,
       "soreness": null,
@@ -296,7 +296,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 2318,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -308,14 +308,14 @@
     }
   },
   "derived_metrics": {
-    "recovery_index": null,
+    "recovery_index": 0.98,
     "recovery_index_yesterday": 0.79,
-    "hrv_baseline_7d": 41.8,
+    "hrv_baseline_7d": 41.7,
     "rhr_baseline_7d": 57,
     "hrv_baseline_28d": 42.1,
     "rhr_baseline_28d": 57.3,
-    "latest_hrv": null,
-    "latest_rhr": null,
+    "latest_hrv": 41.0,
+    "latest_rhr": 57,
     "acwr": 0.39,
     "acwr_interpretation": "undertraining",
     "monotony": 0.58,
@@ -327,7 +327,7 @@
     "multi_sport_detected": false,
     "strain": 41.0,
     "stress_tolerance": 0.7,
-    "load_recovery_ratio": null,
+    "load_recovery_ratio": 0.7,
     "tss_7d_total": 71.0,
     "tss_28d_total": 730.0,
     "zone_distribution_7d": {
@@ -558,10 +558,10 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-11T01:09:02.633892",
+    "calculation_timestamp": "2026-10-11T07:08:48.210937",
     "data_quality": {
-      "hrv_data_points": 6,
-      "rhr_data_points": 6,
+      "hrv_data_points": 7,
+      "rhr_data_points": 7,
       "activities_7d": 2,
       "activities_28d": 15,
       "planned_workouts_7d": 5,
@@ -2226,7 +2226,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 1408,
+      "steps": 2103,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -2242,15 +2242,15 @@
       "display": {
         "weight": null
       },
-      "resting_hr": null,
-      "hrv_rmssd": null,
+      "resting_hr": 57,
+      "hrv_rmssd": 41.0,
       "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
+      "sleep_hours": 7.2,
+      "sleep_formatted": "7h12m",
       "sleep_quality": null,
       "sleep_score": null,
       "mental_energy": null,
-      "avg_sleeping_hr": null,
+      "avg_sleeping_hr": 58.0,
       "vo2max": null,
       "fatigue": null,
       "soreness": null,
@@ -2268,7 +2268,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 2318,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -2320,7 +2320,7 @@
     "total_training_formatted": "1h6m",
     "total_tss": 71,
     "activities_count": 2,
-    "avg_hrv": 41.8,
+    "avg_hrv": 41.7,
     "avg_resting_hr": 57.0
   },
   "race_calendar": {
@@ -2391,18 +2391,18 @@
       "event_moving_time_seconds": null,
       "days_until_event": 0,
       "current_day": "D-0",
-      "ctl_baseline": 21.6,
-      "normal_weekly_tss": 151.3,
+      "ctl_baseline": 21.3,
+      "normal_weekly_tss": 148.8,
       "race_week_tss_budget": {
-        "min": 76,
-        "max": 98
+        "min": 74,
+        "max": 97
       },
       "race_week_tss_spent": 71,
       "race_week_tss_remaining": {
-        "min": 5,
-        "max": 27
+        "min": 3,
+        "max": 26
       },
-      "projected_race_day_tsb": -1.3,
+      "projected_race_day_tsb": 0.1,
       "tsb_target_range": {
         "min": 5,
         "max": 15
@@ -2431,7 +2431,7 @@
       "go_no_go": {
         "tsb_status": "flag",
         "notes": [
-          "Projected race-day TSB -1.3 is below target range 5-15. Consider additional rest."
+          "Projected race-day TSB 0.1 is below target range 5-15. Consider additional rest."
         ]
       }
     }
