@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-13T11:18:17.935850",
+    "last_updated": "2026-10-13T13:20:32.159080",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -204,8 +204,8 @@
       "ctl": 22.05,
       "atl": 23.83,
       "tsb": -1.78,
-      "ramp_rate": -1.16,
-      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
+      "ramp_rate": -0.22,
+      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
       "eftp": null,
@@ -473,13 +473,14 @@
     },
     "consistency_index": 0.0,
     "consistency_details": {
-      "planned_days": 3,
+      "planned_days": 4,
       "completed_days": 0,
       "matched_days": 0,
       "planned_dates": [
         "2026-10-07",
         "2026-10-08",
-        "2026-10-10"
+        "2026-10-10",
+        "2026-10-13"
       ],
       "completed_dates": []
     },
@@ -497,14 +498,14 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": null,
-          "hard_sessions_planned": 0,
+          "planned_tss_delta": 1.18,
+          "hard_sessions_planned": 1,
           "current_week_hard_days_completed": 0,
-          "current_week_hard_days_total": 0,
+          "current_week_hard_days_total": 1,
           "race_proximity": 12,
-          "next_week_load": null,
-          "plan_coverage_current_week": 0.0,
-          "plan_coverage_next_week": 0.25
+          "next_week_load": 0.6,
+          "plan_coverage_current_week": 1.25,
+          "plan_coverage_next_week": 1.0
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -539,13 +540,13 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-13T11:18:17.935182",
+    "calculation_timestamp": "2026-10-13T13:20:32.158094",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 2,
       "activities_28d": 15,
-      "planned_workouts_7d": 4,
+      "planned_workouts_7d": 5,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -2262,6 +2263,108 @@
   ],
   "planned_workouts": [
     {
+      "id": 144244382,
+      "date": "2026-10-13",
+      "name": "Easy",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 28,
+      "duration_hours": 0.47,
+      "duration_formatted": "28m3s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "-5km z2 hr"
+    },
+    {
+      "id": 144251055,
+      "date": "2026-10-14",
+      "name": "Threshold",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 56,
+      "duration_hours": 0.89,
+      "duration_formatted": "53m34s",
+      "workout_summary": "13m17s | 3\u00d76m / 3m rec | 13m17s",
+      "has_terrain": false,
+      "description": "-2km z1 pace\n\n3x\n-6m z4 pace\n-3m z1 pace\n\n-2km z1 pace"
+    },
+    {
+      "id": 144251167,
+      "date": "2026-10-15",
+      "name": "Easy",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 28,
+      "duration_hours": 0.47,
+      "duration_formatted": "28m3s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "-5km z2 hr"
+    },
+    {
+      "id": 144251392,
+      "date": "2026-10-17",
+      "name": "Long",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 72,
+      "duration_hours": 1.12,
+      "duration_formatted": "1h7m19s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "-9km z2 hr\n-3km z3 hr"
+    },
+    {
+      "id": 144251558,
+      "date": "2026-10-18",
+      "name": "Recovery",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 17,
+      "duration_hours": 0.47,
+      "duration_formatted": "28m3s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "-5km z1 hr"
+    },
+    {
+      "id": 144252225,
+      "date": "2026-10-20",
+      "name": "Easy",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 34,
+      "duration_hours": 0.56,
+      "duration_formatted": "33m39s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "-6km z2 hr"
+    },
+    {
+      "id": 144252783,
+      "date": "2026-10-21",
+      "name": "HM",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 59,
+      "duration_hours": 1.03,
+      "duration_formatted": "1h2m5s",
+      "workout_summary": "11m13s | 3\u00d711m13s / 2m rec | 11m13s",
+      "has_terrain": false
+    },
+    {
+      "id": 144253107,
+      "date": "2026-10-23",
+      "name": "Easy strides",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 27,
+      "duration_hours": 0.44,
+      "duration_formatted": "26m26s",
+      "workout_summary": "22m26s | 4\u00d720s / 40s rec",
+      "has_terrain": false
+    },
+    {
       "id": 90949651,
       "date": "2026-10-25",
       "name": "Valencia Half Marathon Trinidad Alfonso Zurich",
@@ -2276,12 +2379,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 0,
-    "success": 0,
-    "patternA": 0,
+    "attempted": 8,
+    "success": 3,
+    "patternA": 3,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 0
+    "bail_no_match": 5
   },
   "weekly_summary": {
     "total_training_hours": 1.47,
