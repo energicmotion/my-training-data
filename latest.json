@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-18T09:36:14.668894",
+    "last_updated": "2026-10-18T13:19:27.237405",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -278,7 +278,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 12250,
+      "steps": 12880,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -503,9 +503,9 @@
           "current_week_hard_days_completed": 1,
           "current_week_hard_days_total": 1,
           "race_proximity": 7,
-          "next_week_load": 1.4,
+          "next_week_load": 0.53,
           "plan_coverage_current_week": 0.25,
-          "plan_coverage_next_week": 1.25
+          "plan_coverage_next_week": 1.0
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -540,7 +540,7 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-18T09:36:14.668174",
+    "calculation_timestamp": "2026-10-18T13:19:27.236338",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -2250,7 +2250,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 12250,
+      "steps": 12880,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -2281,12 +2281,12 @@
       "name": "Easy",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 34,
-      "duration_hours": 0.56,
-      "duration_formatted": "33m39s",
+      "planned_tss": 28,
+      "duration_hours": 0.47,
+      "duration_formatted": "28m3s",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "-6km z2 hr"
+      "description": "-5km z2 hr"
     },
     {
       "id": 144252783,
@@ -2294,12 +2294,12 @@
       "name": "HM",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 59,
-      "duration_hours": 1.03,
-      "duration_formatted": "1h2m5s",
-      "workout_summary": "11m13s | 3\u00d711m13s / 2m rec | 11m13s",
+      "planned_tss": 50,
+      "duration_hours": 0.81,
+      "duration_formatted": "48m52s",
+      "workout_summary": "11m13s | 2\u00d711m13s / 2m rec | 11m13s",
       "has_terrain": false,
-      "description": "-2km z1 hr\n\n3x\n-2km z3 hr\n-2m z1 hr\n\n-2km z1 hr"
+      "description": "-2km z1 hr\n\n2x\n-2km z4 hr\n-2m z1 hr\n\n-2km z1 hr"
     },
     {
       "id": 144253107,
@@ -2326,28 +2326,15 @@
       "workout_summary": null,
       "has_terrain": false,
       "description": ""
-    },
-    {
-      "id": 145660800,
-      "date": "2026-10-25",
-      "name": "21k",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 158,
-      "duration_hours": 1.68,
-      "duration_formatted": "1h40m38s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": "-21.1km z4 pace"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 5,
+    "attempted": 4,
     "success": 2,
     "patternA": 2,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 3
+    "bail_no_match": 2
   },
   "weekly_summary": {
     "total_training_hours": 2.52,
