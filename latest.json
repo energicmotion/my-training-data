@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-20T15:35:40.260216",
+    "last_updated": "2026-10-20T16:59:38.151125",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -299,7 +299,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 56,
+      "steps": 8071,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -527,10 +527,10 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 0.43,
-          "hard_sessions_planned": 3,
+          "planned_tss_delta": 0.33,
+          "hard_sessions_planned": 2,
           "current_week_hard_days_completed": 0,
-          "current_week_hard_days_total": 3,
+          "current_week_hard_days_total": 2,
           "race_proximity": 5,
           "next_week_load": null,
           "plan_coverage_current_week": 1.0,
@@ -569,7 +569,7 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-20T15:35:40.259144",
+    "calculation_timestamp": "2026-10-20T16:59:38.150112",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -2334,7 +2334,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 56,
+      "steps": 8071,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -2365,12 +2365,12 @@
       "name": "HM",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 50,
-      "duration_hours": 0.81,
-      "duration_formatted": "48m52s",
-      "workout_summary": "11m13s | 2\u00d711m13s / 2m rec | 11m13s",
+      "planned_tss": 31,
+      "duration_hours": 0.56,
+      "duration_formatted": "33m39s",
+      "workout_summary": null,
       "has_terrain": false,
-      "description": "-2km z1 hr\n\n2x\n-2km z4 hr\n-2m z1 hr\n\n-2km z1 hr"
+      "description": "-2km z1 hr\n-2km z4 hr\n-2km z1 hr"
     },
     {
       "id": 144253107,
@@ -2401,11 +2401,11 @@
   ],
   "workout_summary_stats": {
     "attempted": 3,
-    "success": 2,
-    "patternA": 2,
+    "success": 1,
+    "patternA": 1,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 1
+    "bail_no_match": 2
   },
   "weekly_summary": {
     "total_training_hours": 3.33,
