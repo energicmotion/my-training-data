@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-03T08:34:19.703851",
+    "last_updated": "2026-11-03T16:30:57.171794",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -219,8 +219,8 @@
       "ctl": 22.31,
       "atl": 19.34,
       "tsb": 2.97,
-      "ramp_rate": -0.87,
-      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
+      "ramp_rate": -1.41,
+      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
       "eftp": null,
@@ -293,7 +293,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 1292,
+      "steps": 4037,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -492,16 +492,15 @@
       },
       "dfa_a1_profile": null
     },
-    "consistency_index": 0.25,
+    "consistency_index": 0.33,
     "consistency_details": {
-      "planned_days": 4,
+      "planned_days": 3,
       "completed_days": 1,
       "matched_days": 1,
       "planned_dates": [
         "2026-10-30",
         "2026-10-31",
-        "2026-11-01",
-        "2026-11-03"
+        "2026-11-01"
       ],
       "completed_dates": [
         "2026-11-01"
@@ -559,13 +558,13 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-03T08:34:19.702721",
+    "calculation_timestamp": "2026-11-03T16:30:57.171057",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 4,
       "activities_28d": 15,
-      "planned_workouts_7d": 4,
+      "planned_workouts_7d": 3,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -2359,7 +2358,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 1292,
+      "steps": 4037,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -2371,19 +2370,6 @@
     }
   ],
   "planned_workouts": [
-    {
-      "id": 150901914,
-      "date": "2026-11-03",
-      "name": "Threshold",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 55,
-      "duration_hours": 0.91,
-      "duration_formatted": "54m26s",
-      "workout_summary": "11m13s | 3\u00d78m25s / 2m15s rec | 11m13s",
-      "has_terrain": false,
-      "description": "-2km z1 hr\n\n3x\n-1.5km z4 hr\n-0.4km z1 hr\n\n-2km z1 hr"
-    },
     {
       "id": 151002421,
       "date": "2026-11-04",
@@ -2435,6 +2421,19 @@
       "workout_summary": null,
       "has_terrain": false,
       "description": "-14km z2 hr"
+    },
+    {
+      "id": 150901914,
+      "date": "2026-11-08",
+      "name": "Threshold",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 55,
+      "duration_hours": 0.91,
+      "duration_formatted": "54m26s",
+      "workout_summary": "11m13s | 3\u00d78m25s / 2m15s rec | 11m13s",
+      "has_terrain": false,
+      "description": "-2km z1 hr\n\n3x\n-1.5km z4 hr\n-0.4km z1 hr\n\n-2km z1 hr"
     },
     {
       "id": 151004300,
