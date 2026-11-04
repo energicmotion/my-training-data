@@ -1,55 +1,10 @@
 {
-  "generated_at": "2026-11-03T21:59:04.829057",
+  "generated_at": "2026-11-04T01:58:34.728319",
   "version": "3.112",
   "script_hash": "f6d3f912d372",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i199569981",
-      "date": "2026-10-20",
-      "type": "Ride",
-      "name": "Fiets testen\ud83d\udeb4\u200d\u2642\ufe0f",
-      "interval_summary": [
-        "2x 12m58s 136bpm",
-        "1x 16m41s 139bpm",
-        "1x 9m21s 148bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "778s@136bpm",
-          "duration_secs": 765,
-          "avg_hr": 132,
-          "max_hr": 148,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "778s@136bpm",
-          "duration_secs": 790,
-          "avg_hr": 140,
-          "max_hr": 151,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "1001s@139bpm",
-          "duration_secs": 1001,
-          "avg_hr": 139,
-          "max_hr": 158,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "561s@148bpm",
-          "duration_secs": 561,
-          "avg_hr": 148,
-          "max_hr": 161,
-          "zone": 1
-        }
-      ]
-    },
     {
       "activity_id": "i200435428",
       "date": "2026-10-22",
