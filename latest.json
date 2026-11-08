@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-08T13:37:10.321429",
+    "last_updated": "2026-11-08T15:34:36.742160",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -259,7 +259,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 9480,
+      "steps": 10570,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -489,7 +489,7 @@
           "current_week_hard_days_completed": 2,
           "current_week_hard_days_total": 3,
           "race_proximity": null,
-          "next_week_load": 2.14,
+          "next_week_load": 2.17,
           "plan_coverage_current_week": 0.25,
           "plan_coverage_next_week": 1.25
         },
@@ -524,7 +524,7 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-08T13:37:10.320373",
+    "calculation_timestamp": "2026-11-08T15:34:36.741395",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -2533,7 +2533,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 9480,
+      "steps": 10570,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -2564,12 +2564,12 @@
       "name": "Threshold",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 59,
-      "duration_hours": 0.93,
-      "duration_formatted": "56m4s",
-      "workout_summary": "11m13s | 2\u00d714m1s / 2m48s rec | 11m13s",
+      "planned_tss": 63,
+      "duration_hours": 0.95,
+      "duration_formatted": "57m2s",
+      "workout_summary": "13m17s | 2\u00d711m55s / 3m19s rec | 13m17s",
       "has_terrain": false,
-      "description": "-2km z1 hr\n\n2x\n-2.5km z4 hr\n-0.5km z1 hr\n\n-2km z1 hr"
+      "description": "-2km z1 pace\n\n2x\n-2.5km z4 pace\n-0.5km z1 pace\n\n-2km z1 pace"
     },
     {
       "id": 151004306,
