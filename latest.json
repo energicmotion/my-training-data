@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-13T18:44:51.745090",
+    "last_updated": "2026-11-13T23:54:24.232451",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -534,7 +534,7 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-13T18:44:51.744341",
+    "calculation_timestamp": "2026-11-13T23:54:24.231439",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -552,7 +552,7 @@
       "id": "i209618337",
       "date": "2026-11-13T17:23:38",
       "type": "Run",
-      "name": "Namiddagloop",
+      "name": "Easy run",
       "duration_hours": 0.71,
       "distance_km": 7.11,
       "tss": 39,
