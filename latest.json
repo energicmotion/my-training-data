@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-15T15:37:42.049180",
+    "last_updated": "2026-11-15T20:33:30.466213",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -269,7 +269,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 1226,
+      "steps": 16003,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -498,7 +498,7 @@
           "current_week_hard_days_completed": 0,
           "current_week_hard_days_total": 0,
           "race_proximity": null,
-          "next_week_load": 1.86,
+          "next_week_load": 1.83,
           "plan_coverage_current_week": 0.2,
           "plan_coverage_next_week": 1.0
         },
@@ -533,7 +533,7 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-15T15:37:42.048438",
+    "calculation_timestamp": "2026-11-15T20:33:30.465486",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -2542,7 +2542,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 1226,
+      "steps": 16003,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -2569,33 +2569,33 @@
     },
     {
       "id": 151437531,
-      "date": "2026-11-17",
+      "date": "2026-11-16",
       "name": "Threshold",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 59,
-      "duration_hours": 0.93,
-      "duration_formatted": "55m39s",
-      "workout_summary": "10m30s | 3\u00d79m27s / 2m6s rec | 10m30s",
+      "planned_tss": 62,
+      "duration_hours": 0.94,
+      "duration_formatted": "56m25s",
+      "workout_summary": "12m26s | 3\u00d78m2s / 2m29s rec | 12m26s",
       "has_terrain": false,
-      "description": "-2km z1 hr\n\n3x\n-1.8km z4 hr\n-0.4km z1 hr\n\n-2km z1 hr"
+      "description": "-2km z1 pace\n\n3x\n-1.8km z4 pace\n-0.4km z1 pace\n\n-2km z1 pace"
     },
     {
       "id": 151437584,
-      "date": "2026-11-18",
+      "date": "2026-11-17",
       "name": "Easy run + strides",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 55,
-      "duration_hours": 0.89,
-      "duration_formatted": "53m13s",
-      "workout_summary": "47m13s | 6\u00d720s / 40s rec",
+      "planned_tss": 47,
+      "duration_hours": 0.79,
+      "duration_formatted": "47m13s",
+      "workout_summary": null,
       "has_terrain": false,
-      "description": "-9km z2 hr\n\n6x\n-20s z6 hr\n-40s z1 hr"
+      "description": "-9km z2 hr"
     },
     {
       "id": 151437623,
-      "date": "2026-11-19",
+      "date": "2026-11-18",
       "name": "Interval",
       "type": "WORKOUT",
       "sport_type": "Run",
@@ -2608,7 +2608,7 @@
     },
     {
       "id": 151437806,
-      "date": "2026-11-20",
+      "date": "2026-11-19",
       "name": "Easy run of fietsen",
       "type": "WORKOUT",
       "sport_type": "Run",
@@ -2621,7 +2621,7 @@
     },
     {
       "id": 151438099,
-      "date": "2026-11-21",
+      "date": "2026-11-20",
       "name": "Long run",
       "type": "WORKOUT",
       "sport_type": "Run",
@@ -2698,11 +2698,11 @@
   ],
   "workout_summary_stats": {
     "attempted": 11,
-    "success": 5,
-    "patternA": 5,
+    "success": 4,
+    "patternA": 4,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 6
+    "bail_no_match": 7
   },
   "weekly_summary": {
     "total_training_hours": 3.11,
